@@ -10,3 +10,8 @@ The `M` stands for `Modules` <strong>e.g.</strong> `M2` means `Module 2`. That's
 
 <hr />
 
+## S1-13-M2 - 01/26/23 - "[PÁGINA DE LOGIN](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-1/S1-13-M2.html)"
+Still coding.
+
+## S1-14-M2 - 01/27/23 - "[SITE INSTITUCIONAL GENÉRICO](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-1/S1-14-M2.html)"
+Still coding.
