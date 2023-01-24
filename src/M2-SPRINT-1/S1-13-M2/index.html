@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Bianca Toller" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <title>Página de Login</title>
+  </head>
+  <body>
+    <main id="main">
+      <div class="container">
+        <section class="slogan">
+          <img src="./assets/logo1.png" alt="Logo Kenzie Academy Brasil" />
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting.
+          </p>
+        </section>
+        <section class="login">
+          <h2>Login</h2>
+          <div class="form">
+            <div class="form-group">
+              <label for="email">E-mail:</label>
+              <input type="text" name="email" id="email" />
+            </div>
+            <div class="form-group">
+              <label for="password">Senha:</label>
+              <input type="text" name="password" id="password" />
+            </div>
+            <a href="#" class="form-senha">Esqueceu a senha?</a>
+            <button onclick="modal()" class="btn-cadastrar">
+              Ainda não tem conta? Cadastre-se aqui!
+            </button>
+            <div class="modal">
+              <dialog class="modal-container">
+                <h4>Digite seu email</h4>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="Digite seu email aqui..."
+                />
+                <button onclick="closeModal()" class="close-modal">
+                  Enviar e Fechar
+                </button>
+              </dialog>
+            </div>
+            <button class="btn-logar">Logar</button>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="./scripts/modal.js"></script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+#main {
+  background: linear-gradient(to right, #fff 45%, #1b82e9 45%);
+}
+
+#main .container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100%;
+}
+
+#main .slogan {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+}
+
+#main .slogan img {
+  height: auto;
+  max-width: 100%;
+}
+
+#main .slogan > p {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 24px;
+}
+
+#main .login {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+}
+
+#main .login h2 {
+  color: black;
+  font-size: 48px;
+  font-weight: bolder;
+  margin-bottom: 40px;
+}
