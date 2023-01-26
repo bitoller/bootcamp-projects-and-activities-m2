@@ -8,7 +8,8 @@
 }
 
 :root {
-  --color-primary: /* definir */ ;
+  --color-primary: #1875d1;
+  --color-accent: #0000e5;
   --color-grey-1: #191c1f;
   --color-grey-2: #212529;
   --color-grey-3: #343a40;
