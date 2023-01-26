@@ -8,6 +8,8 @@ function handleModal() {
 function openModal() {
   const modalContainer = document.querySelector("#modalContainer");
   modalContainer.showModal();
+
+  closeModal();
 }
 
 function closeModal() {
@@ -19,4 +21,3 @@ function closeModal() {
 }
 
 handleModal();
-closeModal();
