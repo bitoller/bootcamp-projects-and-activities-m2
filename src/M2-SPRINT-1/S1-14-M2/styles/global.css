@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("./reset.css");
+@import url("./modal.css");
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--color-gray-2);
+  color: var(--color-gray-6);
+}
+
+h1 {
+  font-size: 52px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--color-gray-6);
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--color-gray-6);
+}
+
+h4 {
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--color-gray-6);
+}
+
+h5 {
+  font-size: 20px;
+}
+
+:root {
+  --color-primary: #4c6ef5;
+  --color-accent: #364fc7;
+  --color-gray-1: #191c1f;
+  --color-gray-2: #212529;
+  --color-gray-3: #343a40;
+  --color-gray-4: #adb5bd;
+  --color-gray-5: #ced4da;
+  --color-gray-6: #edf2ff;
+  --container-padding: 236px;
+}
