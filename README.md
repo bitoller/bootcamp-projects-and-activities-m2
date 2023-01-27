@@ -11,7 +11,7 @@ The `M` stands for `Modules` <strong>e.g.</strong> `M2` means `Module 2`. That's
 <hr />
 
 ## S1-13-M2 - 01/26/23 - "[PÁGINA DE LOGIN](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-1/S1-13-M2/index.html)"
-For my first activity I had to code a Modal Box using HTML, CSS and JavaScript. The code was already done except for the modal part. *Still designing the modal box*<br />
+For my first activity I had to code a Modal Box using HTML, CSS and JavaScript. The code was already done except for the modal part.<br />
 <br />
 `scaffolding` `dialog` `css variables` `flexbox` `function` `variables` `data type` `methods` `+`
 
