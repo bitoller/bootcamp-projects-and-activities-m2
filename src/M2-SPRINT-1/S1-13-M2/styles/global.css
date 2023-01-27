@@ -10,10 +10,10 @@
 :root {
   --color-primary: #1875d1;
   --color-accent: #0000e5;
-  --color-grey-1: #191c1f;
-  --color-grey-2: #212529;
-  --color-grey-3: #343a40;
-  --color-grey-4: #adb5bd;
-  --color-grey-5: #ced4da;
-  --color-grey-6: #edf2ff;
+  --color-gray-1: #191c1f;
+  --color-gray-2: #212529;
+  --color-gray-3: #343a40;
+  --color-gray-4: #adb5bd;
+  --color-gray-5: #ced4da;
+  --color-gray-6: #edf2ff;
 }
