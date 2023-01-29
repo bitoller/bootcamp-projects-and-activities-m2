@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 4rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  background-color: rgb(243, 243, 243);
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.03);
+}
+
+ul {
+  height: 500px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  overflow: auto;
+  padding-bottom: 0.5rem;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem 0rem;
+}
+
+li {
+  min-height: 116px;
+  display: flex;
+  gap: 1.5rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  padding: 0.5rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+li > button {
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(255, 122, 122);
+  padding: 0.5rem;
+  height: max-content;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+li > button:hover {
+  color: rgb(255, 0, 0);
+}
+
+button {
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  background-color: rgb(44, 165, 247);
+  color: white;
+  transition: 300ms ease-in-out;
+  cursor: pointer;
+}
+
+section > button:hover {
+  filter: brightness(0.9);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #999;
+  border-radius: 90px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}

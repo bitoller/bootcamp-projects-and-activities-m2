@@ -19,3 +19,18 @@ For my first activity I had to code a Modal Box using HTML, CSS and JavaScript. 
 For my next activity I had to code a Web Site based on an example given from Figma using HTML, CSS and JavaScript. Both buttons had to open the same modal box, and the modal box had to have a working close button. The HTML was already done but I made small changes to it.<br />
 <br />
 `scaffolding` `dialog` `css variables` `flexbox` `backdrop` `function` `variables` `data type` `methods` `+`
+
+## S2-05-M2 - 01/31/23 - "[CRIANDO FILTRO DE DADOS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-2/S2-05-M2/index.html)"
+Still coding.
+
+## S2-06-M2 - 02/01/23 - "[PESQUISANDO POR DADOS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-2/S2-06-M2/index.html)"
+Still coding.
+
+## S2-07-M2 - 02/01/23 - "[REMOVENDO DADOS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-2/S2-07-M2/index.html)"
+Still coding.
+
+## S2-08-M2 - 02/01/23 - "[REDUZINDO DADOS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-2/S2-08-M2/index.html)"
+Still coding.
+
+## S2-12-M2 - 02/03/23 - "[RECRIANDO MÉTODOS DE ARRAY](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-2/S2-12-M2/index.html)"
+Still coding.
