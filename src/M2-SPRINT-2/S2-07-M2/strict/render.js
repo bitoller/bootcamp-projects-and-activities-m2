@@ -1,82 +1,80 @@
 const ulTag = document.querySelector("ul");
 
-function renderizaNovoProduto(produto) {
+function renderNewProduct(product) {
   ulTag.insertAdjacentHTML(
     "beforeend",
     `
-        <li id=${`produto-${produto.id}`}>
-            <img src=${produto.imagem} alt=${produto.nome}>
+        <li id=${`product-${product.id}`}>
+            <img src=${product.image} alt=${product.name}>
             <div>
-                <h3>${produto.nome}</h3>
+                <h3>${product.name}</h3>
                 <p>${new Intl.NumberFormat("pt-BR", {
                   style: "currency",
                   currency: "BRL",
-                }).format(produto.preco)}</p>
+                }).format(product.price)}</p>
             </div>
-            <button onclick="removeProdutoDoCarrinho(event)" id=${
-              produto.id
+            <button onclick="removeProductFromCart(event)" id=${
+              product.id
             }>X</button>
         </li>
     `
   );
 }
 
-function adicionaProdutoAleatorioAoCarrinho() {
-  if (listaDoCarrinho.length >= 8) return null;
+function addRandomProductToCart() {
+  if (cartList.length >= 8) return null;
 
-  const indexAleatorio = Math.floor(Math.random() * (9 - 1) + 1);
-  const produtoAleatorioEstaNoCarrinho = listaDoCarrinho.some(
-    (produto) => produto.id === indexAleatorio
+  const randomIndex = Math.floor(Math.random() * (9 - 1) + 1);
+  const randomProductInCart = cartList.some(
+    (product) => product.id === randomIndex
   );
 
-  if (!produtoAleatorioEstaNoCarrinho) {
-    const produtoAleatorio = listaDeRoupas[indexAleatorio - 1];
+  if (!randomProductInCart) {
+    const randomProduct = clothesList[randomIndex - 1];
 
-    listaDoCarrinho.push(produtoAleatorio);
-    renderizaNovoProduto(produtoAleatorio);
+    cartList.push(randomProduct);
+    renderNewProduct(randomProduct);
   } else {
-    adicionaProdutoAleatorioAoCarrinho();
+    addRandomProductToCart();
   }
 }
 
-const botaoAdicionar = document.querySelector("#botaoAdicionar");
+const addButton = document.querySelector("#addButton");
 
-botaoAdicionar.addEventListener("click", adicionaProdutoAleatorioAoCarrinho);
+addButton.addEventListener("click", addRandomProductToCart);
 
-function removeProdutoDoCarrinho(event) {
-  const idProdutoNaDOM = event.target.id;
-  const produtoNoCarrinho = listaDoCarrinho.find(
-    (produto) => produto.id == idProdutoNaDOM
-  );
-  const produtoRemovido = removeDoCarrinho(produtoNoCarrinho)[0];
+function removeProductFromCart(event) {
+  const productIdDom = event.target.id;
+  const productInCart = cartList.find((product) => product.id == productIdDom);
+  const productRemoved = removeFromCart(productInCart)[0];
 
-  if (produtoRemovido === produtoNoCarrinho) {
-    const element = document.querySelector(`#produto-${event.target.id}`);
+  if (productRemoved === productInCart) {
+    const element = document.querySelector(`#product-${event.target.id}`);
     element && element.remove();
-  } else if (!produtoRemovido) {
+  } else if (!productRemoved) {
     console.error(
-      "Algo não esta funcionando corretamente, o produto ainda existe no array listaDoCarrinho ou o retorno da função esta incorreto",
-      listaDoCarrinho
+      "Algo não esta funcionando corretamente, o produto ainda existe no array cartList ou o retorno da função esta incorreto",
+      cartList
     );
   }
 }
 
-function renderizaProdutosIniciais(carrinho) {
-  carrinho.forEach((produto) => {
+function renderInitialProducts(cart) {
+  cart.forEach((product) => {
     ulTag.insertAdjacentHTML(
       "beforeend",
       `
-        <li id=${`produto-${produto.id}`}>
-            <img src=${produto.imagem} alt=${produto.nome}>
+        <li id=${`product-${product.id}`}>
+            <img src=${product.image} alt=${product.name}>
             <div>
-                <h3>${produto.nome}</h3>
+                <h3>${product.name}</h3>
                 <p>${new Intl.NumberFormat("pt-BR", {
                   style: "currency",
                   currency: "BRL",
-                }).format(produto.preco)}</p>
+                }).format(product.price)}</p>
             </div>
-            <button onclick="removeProdutoDoCarrinho(event)" id=${
-              produto.id
+            <button onclick="removeProductFromCart(event)" id=${
+              product.id
             }>X</button>
         </li>
         `
@@ -84,4 +82,4 @@ function renderizaProdutosIniciais(carrinho) {
   });
 }
 
-renderizaProdutosIniciais(listaDoCarrinho);
+renderInitialProducts(cartList);
