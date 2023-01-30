@@ -21,16 +21,24 @@ For my next activity I had to code a Web Site based on an example given from Fig
 `scaffolding` `dialog` `css variables` `flexbox` `backdrop` `function` `variables` `data type` `methods` `+`
 
 ## S2-05-M2 - 01/31/23 - "[CRIANDO FILTRO DE DADOS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-2/S2-05-M2/index.html)"
-Still coding.
+For my next activity I had to solve exercises using JavaScript and the filter method.<br />
+<br />
+`console log` `return` `function` `variables` `operators` `arithmetics` `data type` `string` `number` `methods` `arrays` `objects` `+`
 
 ## S2-06-M2 - 02/01/23 - "[PESQUISANDO POR DADOS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-2/S2-06-M2/index.html)"
-Still coding.
+For my next activity I had to code the Search Function of a website using JavaScript and the filter and includes methods.<br />
+<br />
+`return` `function` `variables` `data type` `methods` `+`
 
 ## S2-07-M2 - 02/01/23 - "[REMOVENDO DADOS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-2/S2-07-M2/index.html)"
-Still coding.
+For my next activity I had to code the Remove Items From Cart Buttons of a website using JavaScript and the findIndex and splice methods.<br />
+<br />
+`return` `function` `variables` `data type` `methods` `+`
 
 ## S2-08-M2 - 02/01/23 - "[REDUZINDO DADOS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-2/S2-08-M2/index.html)"
-Still coding.
+For my next activity I had to solve exercises using JavaScript and the reduce method.<br />
+<br />
+`console log` `return` `function` `variables` `operators` `arithmetics` `data type` `string` `number` `methods` `arrays` `objects` `+`
 
 ## S2-12-M2 - 02/03/23 - "[RECRIANDO MÉTODOS DE ARRAY](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-2/S2-12-M2/index.html)"
 Still coding.
