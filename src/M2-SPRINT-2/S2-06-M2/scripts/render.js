@@ -2,42 +2,42 @@ const ulTag = document.querySelector("ul");
 const formTag = document.querySelector("form");
 const inputTag = document.querySelector("input");
 
-function renderizaSobremesas(listaDeSobremesas) {
+function renderDessert(dessertList) {
   ulTag.innerHTML = "";
 
-  listaDeSobremesas.forEach((sobremesa) => {
-    const tagLi = document.createElement("li");
+  dessertList.forEach((dessert) => {
+    const liTag = document.createElement("li");
 
     const imgTag = document.createElement("img");
-    imgTag.src = sobremesa.imagem;
-    imgTag.alt = sobremesa.nome;
+    imgTag.src = dessert.image;
+    imgTag.alt = dessert.name;
 
-    const containerDeTexto = document.createElement("div");
+    const textContainer = document.createElement("div");
 
-    const titulo = document.createElement("h2");
-    titulo.innerText = sobremesa.nome;
+    const title = document.createElement("h2");
+    title.innerText = dessert.name;
 
-    const descricao = document.createElement("p");
-    descricao.innerText = sobremesa.descricao;
+    const description = document.createElement("p");
+    description.innerText = dessert.description;
 
-    containerDeTexto.append(titulo, descricao);
-    tagLi.append(imgTag, containerDeTexto);
-    ulTag.append(tagLi);
+    textContainer.append(title, description);
+    liTag.append(imgTag, textContainer);
+    ulTag.append(liTag);
   });
 }
 
-formTag.addEventListener("submit", aoSubmeter);
+formTag.addEventListener("submit", submit);
 
-function aoSubmeter(event) {
+function submit(event) {
   event.preventDefault();
 
-  const valorDoInput = inputTag.value;
+  const inputValue = inputTag.value;
 
-  if (procuraSobremesa(valorDoInput)) {
-    renderizaSobremesas(procuraSobremesa(valorDoInput));
+  if (searchDessert(inputValue)) {
+    renderDessert(searchDessert(inputValue));
   } else {
     console.error("Retorno da função inválido");
   }
 }
 
-renderizaSobremesas(listaDeSobremesas);
+renderDessert(dessertList);

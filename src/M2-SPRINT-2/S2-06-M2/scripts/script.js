@@ -1,5 +1,6 @@
-function procuraSobremesa(valorDoInput) {
-  /* Desenvolva sua lógica a partir aqui */
-
-  return; /* É necessário retornar uma lista de produtos */
+function searchDessert(inputValue) {
+  let filtered = dessertList.filter((element) =>
+    element.name.toLowerCase().includes(inputValue.toLowerCase())
+  );
+  return filtered;
 }
