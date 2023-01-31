@@ -1,19 +1,35 @@
-function newMap() {
-  // Reproduza aqui o seu método map
+function newMap(array, callbackFn) {
+  let multipliedByTwo = [];
+  for (let i = 0; i < array.length; i++) {
+    multipliedByTwo.push(callbackFn(array[i]));
+  }
+  return multipliedByTwo;
 }
 
-function newFilter() {
-  // Reproduza aqui o seu método filter
+function newFilter(array, callbackFn) {
+  let evenNumbers = [];
+  for (let i = 0; i < array.length; i++) {
+    if (callbackFn(array[i]) == true) {
+      evenNumbers.push(array[i]);
+    }
+  }
+  return evenNumbers;
 }
 
-function newFind() {
-  // Reproduza aqui o seu método find
+function newFind(array, callbackFn) {
+  for (let i = 0; i < array.length; i++) {
+    if (callbackFn(array[i]) == true) {
+      return array[i];
+    }
+  }
 }
 
-function newReduce() {
-  // Reproduza aqui o seu método Reuce
+function newReduce(array, callbackFn, initValue) {
+  let accumulator = initValue != undefined ? initValue : 0;
+  for (let i = 0; i < array.length; i++) {
+    accumulator = callbackFn(accumulator, array[i]);
+  }
+  return accumulator;
 }
-
-// Não alterar o código abaixo
 
 export { newMap, newFilter, newFind, newReduce };
