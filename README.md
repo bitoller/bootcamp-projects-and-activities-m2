@@ -26,12 +26,12 @@ For my next activity I had to solve exercises using JavaScript and the filter me
 `console log` `return` `function` `variables` `operators` `arithmetics` `data type` `string` `number` `methods` `arrays` `objects` `+`
 
 ## S2-06-M2 - 02/01/23 - "[PESQUISANDO POR DADOS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-2/S2-06-M2/index.html)"
-For my next activity I had to code the Search Function of a website using JavaScript and the filter and includes methods.<br />
+For my next activity I had to code the Search Function of a website using JavaScript and the filter and includes methods. All of the code but the script.js was already done, I still made small changes here and there.<br />
 <br />
 `return` `function` `variables` `data type` `methods` `+`
 
 ## S2-07-M2 - 02/01/23 - "[REMOVENDO DADOS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-2/S2-07-M2/index.html)"
-For my next activity I had to code the Remove Items From Cart Buttons of a website using JavaScript and the findIndex and splice methods.<br />
+For my next activity I had to code the Remove Items From Cart Buttons of a website using JavaScript and the findIndex and splice methods. All of the code but the script.js was already done, I still made small changes here and there.<br />
 <br />
 `return` `function` `variables` `data type` `methods` `+`
 
