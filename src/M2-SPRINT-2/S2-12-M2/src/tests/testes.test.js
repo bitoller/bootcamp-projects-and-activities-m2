@@ -1,4 +1,4 @@
-import { newFilter, newFind, newMap, newReduce } from "../scripts/metodos.js";
+import { newFilter, newFind, newMap, newReduce } from "../scripts/script.js";
 
 const arrNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const arrString = [
