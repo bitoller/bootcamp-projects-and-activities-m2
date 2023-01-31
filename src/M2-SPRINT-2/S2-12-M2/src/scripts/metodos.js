@@ -14,16 +14,6 @@ function newReduce() {
   // Reproduza aqui o seu método Reuce
 }
 
-
-
-
-
-
 // Não alterar o código abaixo
 
-export {
-  newMap,
-  newFilter,
-  newFind,
-  newReduce
-}
+export { newMap, newFilter, newFind, newReduce };
