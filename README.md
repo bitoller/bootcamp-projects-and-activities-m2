@@ -41,4 +41,6 @@ For my next activity I had to solve exercises using JavaScript and the reduce me
 `scaffolding` `console log` `return` `function` `variables` `operators` `arithmetics` `data type` `string` `number` `methods` `arrays` `objects` `+`
 
 ## S2-12-M2 - 02/03/23 - "[RECRIANDO MÉTODOS DE ARRAY](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-2/S2-12-M2/index.html)"
-Still coding. Test
+For my next activity I had to solve exercises using JavaScript, avoiding the use of methods. The exercises had to pass a Unit Testing using Jest. All of the code but the script.js was already done.<br />
+<br />
+`scaffolding` `return` `loops` `function` `variables` `data type` `boolean` `conditionals` `arrays` `node` `yarn` `jest` `+`
