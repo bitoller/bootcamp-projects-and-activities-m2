@@ -1,0 +1,63 @@
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  margin: 20px 0;
+}
+
+.links {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+a {
+  color: white;
+}
+
+.card {
+  height: 420px;
+  width: 350px;
+  margin: 20px 0;
+  font-size: 20px;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  background-image: linear-gradient(rgb(226, 226, 255), rgb(175, 175, 175));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card:hover img {
+  box-shadow: 0 0 37px 3px rgba(0, 0, 0, 0.75);
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgb(224, 224, 224);
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+  margin: 20px 0;
+}
+
+.saleOff {
+  position: relative;
+  bottom: -20px;
+  width: 100%;
+  text-align: center;
+  background-color: brown;
+  color: white;
+  font-size: 32px;
+}
+
+.saleNone {
+  display: none;
+}
