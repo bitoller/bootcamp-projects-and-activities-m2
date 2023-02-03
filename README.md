@@ -44,3 +44,8 @@ For my next activity I had to solve exercises using JavaScript and the reduce me
 For my next activity I had to solve exercises using JavaScript, avoiding the use of methods. The exercises had to pass a Unit Testing using Jest. All of the code but the script.js was already done.<br />
 <br />
 `scaffolding` `return` `loops` `function` `variables` `data type` `boolean` `conditionals` `arrays` `node` `yarn` `jest` `+`
+
+<hr />
+
+<b>Do not copy any code, content or structure from this repository without my permission. | Não copie nenhum código, conteúdo ou estrutura desse repositório sem a minha permissão.</b><br />
+Copyright © 2023 bitoller
