@@ -49,6 +49,7 @@ For my next activity I had to solve exercises using JavaScript, avoiding the use
 <hr />
 
 <p align="center">
-b>Do not copy any code, content or structure from this repository without my permission. | Não copie nenhum código, conteúdo ou estrutura desse repositório sem a minha permissão.</b><br />
+<b>Do not copy any code, content or structure from this repository without my permission.<br />
+Não copie nenhum código, conteúdo ou estrutura desse repositório sem a minha permissão.</b><br />
 Copyright © 2023 bitoller
-</p><
+</p>
