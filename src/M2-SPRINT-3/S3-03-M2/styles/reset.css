@@ -93,11 +93,6 @@ button {
   vertical-align: baseline;
   box-sizing: border-box;
 }
-
-button,
-input {
-  outline: none;
-}
 /* HTML5 display-role reset for older browsers */
 article,
 aside,

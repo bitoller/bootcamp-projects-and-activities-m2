@@ -1,0 +1,36 @@
+header {
+  height: 90px;
+  margin: 0 auto;
+  max-width: 100%;
+  border-bottom: 2px solid var(--color-gray-4);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+ul {
+  display: flex;
+  gap: 10px;
+}
+
+.search {
+  background-color: #f0f0f0;
+}
+
+.search-button {
+  height: 38px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding-left: 2px;
+}
+
+input {
+  width: 231px;
+  height: 38px;
+  background-color: #f0f0f0;
+  border: transparent;
+}
