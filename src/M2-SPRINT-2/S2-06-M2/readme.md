@@ -53,3 +53,7 @@ O seu trabalho é utilizar o método de string toLowerCase para possibilitar a b
 
 <h3>Conclusão</h3>
 Nessa atividade criamos a lógica de um campo de pesquisa utilizando métodos de array. Esse conhecimento será muito utilizado na nossa vida de desenvolvedor, então lembre sempre de rever e fixar bem os conceitos utilizados nessa atividade!
+<br>
+<br>
+
+<p align="center"><b>Taken from Kenzie Academy Brasil</b></p>
