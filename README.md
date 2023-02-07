@@ -49,15 +49,6 @@ For my next activity I had to solve exercises using JavaScript, avoiding the use
 ## S3-03-M2 - 02/06/23 - "[CRIANDO MENU RESPONSIVO](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-3/S3-03-M2/index.html)"
 Still coding.
 
-## S3-05-M2 - 02/07/23 - "[APLICANDO CONCEITOS DE MEDIA QUERIES](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-3/S3-05-M2/index.html)"
-Still coding.
-
-## S3-06-M2 - 02/07/23 - "[COLUNAS RESPONSIVAS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-3/S3-06-M2/index.html)"
-Still coding.
-
-## S3-07-M2 - 02/08/23 - "[MEDIA QUERIES E ESTILIZANDO TEXTOS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-3/S3-07-M2/index.html)"
-Still coding.
-
 ## S3-09-M2 - 02/08/23 - "[INSERINDO UNIDADES RELATIVAS EM PROJETO](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-3/S3-09-M2/index.html)"
 Still coding.
 
