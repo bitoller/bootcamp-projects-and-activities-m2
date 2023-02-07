@@ -34,3 +34,33 @@ input {
   background-color: #f0f0f0;
   border: transparent;
 }
+
+.menu-button {
+  display: none;
+}
+
+@media (max-width: 320px) {
+  header {
+    height: 90px;
+    max-width: 100%;
+    border-bottom: 2px solid var(--color-gray-4);
+  }
+  .nav {
+    display: flex;
+  }
+  .menu-button {
+    display: block;
+  }
+  .search {
+    display: none;
+  }
+  ul {
+    display: none;
+  }
+  .profile {
+    display: none;
+  }
+  .show {
+    display: block;
+  }
+}
