@@ -7,7 +7,8 @@ I'll be posting here all the activities and projects I had to code during my Ful
 
 The `S` stands for `SPRINT` <strong>e.g.</strong> `S1` means `SPRINT 1`.<br />
 The numbers are the activity numbers. Every activity has a name and a number.<br />
-The `M` stands for `Modules` <strong>e.g.</strong> `M2` means `Module 2`. That's how the bootcamp curriculum is separated.
+The `M` stands for `Modules` <strong>e.g.</strong> `M2` means `Module 2`. That's how the bootcamp curriculum is separated.<br />
+→ All the activities and projects have their own readme files with instructions inside their respective folders.
 
 <hr />
 
@@ -23,6 +24,7 @@ For my next activity I had to code a Web Site based on an example given from Fig
 
 ## S2-05-M2 - 01/31/23 - "[CRIANDO FILTRO DE DADOS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-2/S2-05-M2/index.html)"
 For my next activity I had to solve exercises using JavaScript and the filter method.<br />
+→ <b>Please open the console to see the results</b><br />
 <br />
 `scaffolding` `console log` `return` `function` `variables` `operators` `arithmetics` `data type` `string` `number` `methods` `arrays` `objects` `+`
 
@@ -38,11 +40,13 @@ For my next activity I had to code the Remove Items From Cart Buttons of a websi
 
 ## S2-08-M2 - 02/01/23 - "[REDUZINDO DADOS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-2/S2-08-M2/index.html)"
 For my next activity I had to solve exercises using JavaScript and the reduce method.<br />
+→ <b>Please open the console to see the results</b><br />
 <br />
 `scaffolding` `console log` `return` `function` `variables` `operators` `arithmetics` `data type` `string` `number` `methods` `arrays` `objects` `+`
 
 ## S2-12-M2 - 02/03/23 - "[RECRIANDO MÉTODOS DE ARRAY](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-2/S2-12-M2/index.html)"
 For my next activity I had to solve exercises using JavaScript, avoiding the use of methods. The exercises had to pass a Unit Testing using Jest. All of the code but the script.js was already done.<br />
+→ <b>Please run the unit test to see the results</b><br />
 <br />
 `scaffolding` `return` `loops` `function` `variables` `data type` `boolean` `conditionals` `arrays` `node` `yarn` `jest` `+`
 
