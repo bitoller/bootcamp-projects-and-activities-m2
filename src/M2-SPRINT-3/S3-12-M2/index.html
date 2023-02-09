@@ -6,14 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Bianca Toller" />
     <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="./styles/media-query.css" />
+    <script type="module" src="./scripts/index.js" defer></script>
     <title>Rede Social</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header container-global">
+      <figure>
+        <img src="./assets/logo.svg" alt="logo" />
+      </figure>
+      <button class="exit-button">Sair</button>
+    </header>
+    <div class="main-container">
+      <main class="main container-global">
+        <div class="user-container">
+          <img src="./assets/user1.svg" class="user-img" />
+          <div>
+            <h2>Samuel Leão</h2>
+            <p class="user-stack">Front end Engineer</p>
+          </div>
+        </div>
+        <form class="post-form" id="post-form">
+          <input
+            type="text"
+            id="post-title"
+            name="post-title"
+            required
+            placeholder="Digitar título do post"
+          />
+          <textarea
+            type="text"
+            id="post-description"
+            name="post-description"
+            required
+            rows="6"
+            placeholder="Digitar descrição do post"
+          ></textarea>
+          <input
+            type="submit"
+            class="post-submit"
+            name="submit"
+            value="Postar"
+            disabled
+          />
+        </form>
+        <div class="show-mobile">
+          <h2>Sugestões Para Você Seguir</h2>
+          <div class="carousel"><div class="aside-container"></div></div>
+        </div>
+        <section>
+          <h1 class="heading-margin">Posts</h1>
+          <div id="all-posts"></div>
+        </section>
+      </main>
+      <aside class="aside container-global">
+        <h2>Sugestões Para Você Seguir</h2>
+        <div class="aside-container"></div>
+      </aside>
+    </div>
+    <dialog id="modal" class="modal"></dialog>
+  </body>
 </html>

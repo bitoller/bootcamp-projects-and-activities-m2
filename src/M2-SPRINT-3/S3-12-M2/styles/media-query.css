@@ -1,0 +1,28 @@
+@media (min-width: 426px) {
+  .container-global {
+    padding: 0 100px;
+  }
+  .main {
+    max-width: 60%;
+  }
+  .aside {
+    display: block;
+    flex-grow: 1;
+    max-width: 40%;
+  }
+  .aside-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .suggestion-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .show-mobile {
+    display: none;
+  }
+  .modal {
+    width: 50%;
+  }
+}

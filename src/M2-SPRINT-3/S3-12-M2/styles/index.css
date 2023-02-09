@@ -1,0 +1,227 @@
+.header {
+  background-color: var(--color-gray-1);
+  width: 100vw;
+  height: 76px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+.container-global {
+  padding: 0 20px;
+}
+
+.exit-button {
+  background: none;
+  color: var(--color-white-fixed);
+  font-size: var(--font-text-2);
+  cursor: pointer;
+}
+
+.main-container {
+  margin-top: 132px;
+  display: flex;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.aside {
+  display: none;
+}
+
+.suggestion-container {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+.user-container {
+  display: flex;
+  gap: 10px;
+}
+
+.user-img {
+  height: 52px;
+  width: 52px;
+}
+
+.user-stack {
+  font-size: var(--font-text-2);
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.follow {
+  font-size: var(--font-text-2);
+  font-weight: 600;
+  background: none;
+  border: 1px solid var(--color-gray-1);
+  padding: 5.5px 12px;
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.follow.active,
+.follow:hover.active {
+  background: var(--color-brand-1);
+  border: 1px solid var(--color-brand-1);
+  color: var(--color-white-fixed);
+}
+
+.follow:hover {
+  color: var(--color-brand-1);
+  border: 1px solid var(--color-brand-1);
+  background: var(--color-brand-opacity-1);
+}
+
+.post-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 35px;
+}
+
+.post-submit {
+  align-self: flex-end;
+  color: var(--color-white-fixed);
+  background: var(--color-brand-1);
+  padding: 10.5px 12px;
+  border: 2px solid var(--color-brand-1);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.post-submit:hover {
+  background: var(--color-brand-2);
+  border: 2px solid var(--color-brand-2);
+}
+
+.post-submit:disabled {
+  color: var(--color-gray-3);
+  background: var(--color-gray-4);
+  border: 2px solid var(--color-gray-4);
+  cursor: auto;
+}
+
+input[type="text"] {
+  height: 52px;
+  width: 100%;
+}
+
+textarea,
+input[type="text"] {
+  border: 2px solid var(--color-gray-4);
+  color: var(--color-gray-2);
+  border-radius: 4px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: var(--font-text-1);
+  padding-left: 15px;
+}
+
+input[type="text"]::placeholder,
+textarea::placeholder {
+  color: var(--color-gray-3);
+}
+
+input[type="text"]:focus,
+textarea:focus,
+textarea:focus-visible {
+  border: 2px solid var(--color-brand-1);
+  outline-color: var(--color-brand-1);
+}
+
+.show-mobile > .carousel {
+  overflow-x: auto;
+  width: 86vw;
+  padding-bottom: 25px;
+}
+
+.show-mobile .user-group {
+  width: 150px;
+}
+
+.carousel > .aside-container {
+  display: flex;
+  gap: 50px;
+}
+
+.carousel {
+  margin-bottom: 30px;
+}
+
+.show-mobile {
+  display: block;
+  margin-top: 40px;
+}
+
+.heading-margin {
+  margin-bottom: 40px;
+}
+
+.margin-bottom {
+  margin-bottom: 25px;
+}
+
+.dark-post-button {
+  background: var(--color-gray-1);
+  border: 2px solid var(--color-gray-1);
+}
+
+.dark-post-button:hover {
+  background: var(--color-gray-0);
+  border: 2px solid var(--color-gray-0);
+}
+
+.button-group {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.like-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: none;
+}
+
+.like-button > img {
+  width: 22.76px;
+  height: auto;
+  cursor: pointer;
+}
+
+.like-button > span {
+  font-size: var(--font-text-2);
+}
+
+.modal {
+  width: 75%;
+  border-radius: 8px;
+  border: 1px;
+  padding: 40px 24px;
+  padding-bottom: 15px;
+}
+
+.modal::backdrop {
+  background-color: rgba(33, 37, 41, 0.5);
+}
+
+.close-modal-button {
+  background: var(--color-gray-5);
+  width: 40px;
+  height: 40px;
+  border-radius: 150px;
+  position: absolute;
+  top: 16px;
+  right: 10px;
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  color: var(--color-gray-3);
+}
