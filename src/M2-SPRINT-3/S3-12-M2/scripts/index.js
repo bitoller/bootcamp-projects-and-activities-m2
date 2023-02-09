@@ -93,7 +93,7 @@ function submitForm() {
 }
 
 function createPostsCards(post) {
-  let divArticle = createArticle(post);
+  let divArticle = createArticle(post, true);
   let divButtonGroup = document.createElement("div");
   divButtonGroup.classList.add("button-group", "margin-bottom");
   let openPostButton = document.createElement("button");
@@ -103,7 +103,7 @@ function createPostsCards(post) {
     let modal = document.querySelector("#modal");
     modal.innerHTML = "";
     modal.showModal();
-    let modalArticle = createArticle(post);
+    let modalArticle = createArticle(post, false);
     let divModalContainer = document.createElement("div");
     divModalContainer.classList.add("modal-container");
     let closeModalButton = document.createElement("button");
@@ -146,7 +146,7 @@ function renderPostsCards() {
   });
 }
 
-function createArticle(post) {
+function createArticle(post, overflow) {
   let divPostsSection = document.createElement("div");
   let userContainerDiv = document.createElement("div");
   userContainerDiv.classList.add("user-container", "margin-bottom");
@@ -165,6 +165,9 @@ function createArticle(post) {
   let postContent = document.createElement("p");
   postContent.innerText = post.text;
   postContent.classList.add("margin-bottom");
+  if (overflow == true) {
+    postContent.classList.add("text-overflow");
+  }
   divTitleSection.append(userName, userStack);
   userContainerDiv.append(userImg, divTitleSection);
   divPostsSection.append(userContainerDiv, postTitle, postContent);

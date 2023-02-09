@@ -168,6 +168,14 @@ textarea:focus-visible {
   margin-bottom: 25px;
 }
 
+.text-overflow {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .dark-post-button {
   background: var(--color-gray-1);
   border: 2px solid var(--color-gray-1);
