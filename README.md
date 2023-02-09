@@ -60,7 +60,7 @@ Still coding.
 Still coding.
 
 ## S3-12-M2 - 02/10/23 - "[REDE SOCIAL](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-3/S3-12-M2/index.html)"
-Still coding.
+Done, description not ready yet.
 
 <hr />
 
