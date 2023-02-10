@@ -1,16 +1,16 @@
 h1 {
-  font-size: 48px;
+  font-size: 3rem;
 }
 
 h2 {
-  margin: 20px 0;
+  margin: 1.25rem 0;
 }
 
 .links {
-  width: 200px;
+  width: 12.5rem;
   display: flex;
   justify-content: space-between;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 a {
@@ -18,10 +18,10 @@ a {
 }
 
 .card {
-  height: 420px;
-  width: 350px;
-  margin: 20px 0;
-  font-size: 20px;
+  height: 26.25rem;
+  width: 21.875rem;
+  margin: 1.25rem 0;
+  font-size: 1.25rem;
   border: 3px solid rgb(255, 255, 255);
   border-radius: 10px;
   background-image: linear-gradient(rgb(226, 226, 255), rgb(175, 175, 175));
@@ -42,20 +42,20 @@ main {
 }
 
 img {
-  height: 200px;
-  width: 200px;
+  height: 12.5rem;
+  width: 12.5rem;
   border-radius: 20px;
-  margin: 20px 0;
+  margin: 1.25rem 0;
 }
 
 .saleOff {
   position: relative;
-  bottom: -20px;
+  bottom: -1.25rem;
   width: 100%;
   text-align: center;
   background-color: brown;
   color: white;
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 .saleNone {
