@@ -56,9 +56,6 @@ Still coding.
 ## S3-09-M2 - 02/08/23 - "[INSERINDO UNIDADES RELATIVAS EM PROJETO](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-3/S3-09-M2/index.html)"
 Still coding.
 
-## S3-11-M2 - 02/09/23 - "[TRABALHANDO COM VÁRIOS ARQUIVOS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-3/S3-11-M2/index.html)"
-Still coding.
-
 ## S3-12-M2 - 02/10/23 - "[REDE SOCIAL](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-3/S3-12-M2/index.html)"
 Done, description not ready yet.
 
