@@ -53,11 +53,10 @@ For my next activity I had to solve exercises using JavaScript, avoiding the use
 ## S3-03-M2 - 02/06/23 - "[CRIANDO MENU RESPONSIVO](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-3/S3-03-M2/index.html)"
 Still coding.
 
-## S3-09-M2 - 02/08/23 - "[INSERINDO UNIDADES RELATIVAS EM PROJETO](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-3/S3-09-M2/index.html)"
-Still coding.
-
 ## S3-12-M2 - 02/10/23 - "[REDE SOCIAL](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-3/S3-12-M2/index.html)"
-Done, description not ready yet.
+For my next activity I had to code a Social Media Web Site based on an example given from Figma using HTML, CSS and JavaScript. The web site had to have an input for the post title, another for the post content and a button to submit your post. This post had to show on top of other posts made by other people. I also had to code a working follow button for the people in the suggestions and a working like button on every post. On top of all that the web site had to be responsive, and most importantly, mobile first.<br />
+<br />
+`scaffolding` `dialog` `input` `css variables` `flexbox` `backdrop` `overflow` `media query` `function` `variables` `data type` `boolean` `conditionals` `arrays` `methods` `objects` `DOM` `+`
 
 <hr />
 
