@@ -58,6 +58,9 @@ For my next activity I had to code a Social Media Web Site based on an example g
 <br />
 `scaffolding` `dialog` `input` `css variables` `flexbox` `backdrop` `overflow` `media query` `function` `variables` `data type` `boolean` `conditionals` `arrays` `methods` `objects` `DOM` `+`
 
+## S4-14-M2 - 02/17/23 - "[GIT SEARCH](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-4/S4-14-M2/index.html)"
+Still coding.
+
 <hr />
 
 <p align="center">
