@@ -13,18 +13,11 @@
   </head>
   <body>
     <header>
-      <nav class="nav">
-        <div class="img">
+      <nav>
+        <div class="left-container">
           <figure>
             <img src="./assets/Tech Blog.png" alt="logo" />
           </figure>
-        </div>
-        <div class="menu-button">
-          <button class="button-open">
-            <img src="./assets/menu-button.png" />
-          </button>
-        </div>
-        <div class="menu-hidden">
           <div class="list">
             <ul class="list-show">
               <li>All</li>
@@ -34,6 +27,8 @@
               <li>Java</li>
             </ul>
           </div>
+        </div>
+        <div class="right-container">
           <div class="search">
             <button class="search-button">
               <img src="./assets/search.png" alt="search button" />
@@ -46,11 +41,15 @@
               placeholder="Pesquisar por"
             />
           </div>
-          <div class="profile">
-            <figure>
-              <img src="./assets/profile.png" alt="profile" />
-            </figure>
-          </div>
+          <figure class="img-show">
+            <img src="./assets/profile.png" alt="profile" />
+          </figure>
+          <figcaption class="user-name">Samuel Leão</figcaption>
+        </div>
+        <div class="menu-button">
+          <button class="button-open">
+            <img src="./assets/menu-button.svg" alt="menu-img" class="menu-img"/>
+          </button>
         </div>
       </nav>
     </header>
