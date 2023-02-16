@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: var(--font-primary);
+  font-size: 16px;
+  color: var(--color-grey-8);
+  background: var(--color-grey-2);
 }
 
 :root {
@@ -12,7 +15,8 @@ body {
   --color-grey-3: #33363a;
   --color-grey-4: #373b3e;
   --color-grey-6: #a6a8a9;
-  --color-grey-7: #ffffff;
+  --color-grey-7: #d9d9d9;
+  --color-grey-8: #ffffff;
   --color-alert: #c22554;
   --font-primary: "Inter", sans-serif;
 }

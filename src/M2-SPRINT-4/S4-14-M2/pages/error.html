@@ -5,8 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Bianca Toller" />
-    <script type="module" src="./error.html" defer></script>
-    <title>Git Search - User Not Found</title>
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/globalStyles.css" />
+    <link rel="stylesheet" href="../styles/error.css" />
+    <script type="module" src="../scripts/error.js" defer></script>
+    <title>User Not Found</title>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <div class="error-msg">
+        <h1>Ooops!</h1>
+        <p>
+          Não encontramos o usuário que você procurou,
+          <span>vamos tentar novamente</span>.
+        </p>
+        <button>
+          <a href="../index.html">Nova Busca</a>
+        </button>
+      </div>
+      <div class="error-img">
+        <img src="../assets/error-img.svg" alt="error-img" />
+      </div>
+    </main>
+  </body>
 </html>

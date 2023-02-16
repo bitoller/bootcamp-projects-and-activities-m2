@@ -5,8 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Bianca Toller" />
-    <script type="module" src="./src/scripts/index.js" defer></script>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/globalStyles.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <script type="module" src="./scripts/index.js" defer></script>
     <title>Git Search</title>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <div class="main-container">
+        <section class="section-left">
+          <h1>Git Search</h1>
+          <p>Encontre e se conecte com profissionais de forma rápida e fácil</p>
+        </section>
+        <section class="section-right">
+          <h2>Procurar por um usuário</h2>
+          <div class="form">
+            <label for="user">Usuário github</label>
+            <input
+              type="text"
+              name="user"
+              id="search-input"
+              placeholder="Digite um usuário do github aqui..."
+            />
+            <button class="profile-button">Ver perfil do github</button>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
 </html>

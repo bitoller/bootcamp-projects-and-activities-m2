@@ -1,0 +1,60 @@
+main {
+  background: var(--color-grey-2);
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100%;
+}
+
+.error-msg {
+  height: 100%;
+  width: 50%;
+  padding: 9.375rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.error-msg > h1 {
+  font-size: 2.375rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+}
+
+.error-msg > p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  margin-bottom: 0.563rem;
+  width: 20.875rem;
+}
+
+.error-msg > p > span {
+  font-weight: 600;
+}
+
+.error-msg > button {
+  width: 21.375rem;
+  height: 3.75rem;
+  background: var(--color-brand-2);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.error-msg > button > a {
+  text-decoration: none;
+  color: var(--color-grey-8);
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.error-img {
+  height: 100%;
+  width: 50%;
+  padding: 9.375rem;
+  display: flex;
+  align-items: center;
+}
