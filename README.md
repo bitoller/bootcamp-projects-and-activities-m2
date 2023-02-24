@@ -65,8 +65,11 @@ For my next activity I had to code a GitHub User Search Website based on an exam
 <br />
 `scaffolding` `css variables` `flexbox` `function` `variables` `data type` `boolean` `conditionals` `methods` `DOM` `JSON` `local storage` `API` `+`
 
+## S5-04-M2 - 02/23/23 - "[GET, POST, PATCH E DELETE](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-5/S5-04-M2/front-end/index.html)"
+Still coding, waiting for the API to be fixed.
+
 ## S5-07-M2 - 02/24/23 - "[MANIPULANDO TOKEN](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-5/S5-07-M2/index.html)"
-Still coding.
+Still coding, waiting for the API to be fixed.
 
 <hr />
 

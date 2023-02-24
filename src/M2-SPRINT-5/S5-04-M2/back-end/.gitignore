@@ -1,0 +1,7 @@
+.env
+/node_modules
+package-lock.json
+*.lock
+database.sqlite
+/src/database/database.db
+/src/database/database.db-journal
