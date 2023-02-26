@@ -33,3 +33,7 @@ Utilize o endpoint /products/id para deletar um filme da lista com o método DEL
 <h3>Conclusão</h3>
 
 Essa atividade promoveu a prática dos métodos de requisição em uma API. Criamos uma aplicação funcional e útil, utilizando o DOM para deixar tudo dinâmico. No seu dia-a-dia como pessoa desenvolvedora isso será muito comum, então é importantíssimo ter esse conhecimento!
+<br>
+<br>
+
+<p align="center"><b>Taken from Kenzie Academy Brasil</b></p>
