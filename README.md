@@ -66,10 +66,16 @@ For my next activity I had to code a GitHub User Search Website based on an exam
 `scaffolding` `css variables` `flexbox` `function` `variables` `data type` `boolean` `conditionals` `methods` `DOM` `JSON` `local storage` `API` `+`
 
 ## S5-04-M2 - 02/23/23 - "[GET, POST, PATCH E DELETE](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-5/S5-04-M2/front-end/index.html)"
-Still coding, waiting for the API to be fixed.
+Waiting for the API to be fixed.
 
 ## S5-07-M2 - 02/24/23 - "[MANIPULANDO TOKEN](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-5/S5-07-M2/index.html)"
-Still coding, waiting for the API to be fixed.
+Waiting for the API to be fixed.
+
+## S6-03-M2 - 02/27/23 - "[ATUALIZANDO UM ARRAY COM SPREAD E DESTRUCTURING](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-6/S6-03-M2/index.html)"
+Still coding.
+
+## S6-17-M2 - 03/03/23 - "[PETINFO](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-6/S6-17-M2/front-end/index.html)"
+Still coding.
 
 <hr />
 

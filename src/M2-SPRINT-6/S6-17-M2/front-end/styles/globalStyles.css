@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --brand100: "hsl(230, 57%, 50%)";
+  --brand200: "hsl(230, 68%, 54%)";
+  --gray100: "hsl(210, 11%, 15%)";
+  --gray200: "hsl(210, 10%, 23%)";
+  --gray300: "hsl(210, 9%, 31%)";
+  --gray400: "hsl(210, 7%, 56%)";
+  --gray500: "hsl(210, 11%, 71%)";
+  --gray600: "hsl(210, 16%, 93%)";
+  --gray700: "hsl(210, 17%, 95%)";
+  --gray800: "hsl(210, 17%, 98%)";
+  --gray900: "hsl(200, 100%, 99%)";
+  --alert100: "hsl(349, 57%, 50%)";
+  --alert200: "hsl(349, 69%, 55%)";
+  --sucess100: "hsl(162, 88%, 26%)";
+}
+
+body {
+  font-family: "Inter, sans-serif";
+}
