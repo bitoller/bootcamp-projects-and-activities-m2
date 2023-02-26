@@ -99,3 +99,7 @@ Já praticamos vários métodos: PATCH, DELETE, POST e GET, usando token e sem t
 Para melhorar a experiência, que tal criar uma forma onde passará esses dados, de forma dinâmica, no HTML? Um formulário, por exemplo.
 
 Você também pode criar mais receitas, editar, remover e ir verificando como está sendo essa manipulação de dados.
+<br>
+<br>
+
+<p align="center"><b>Taken from Kenzie Academy Brasil</b></p>
