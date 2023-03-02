@@ -58,7 +58,7 @@ For my next activity I had to code a Responsive Menu based on an example given f
 ## S3-12-M2 - 02/10/23 - "[REDE SOCIAL](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-3/S3-12-M2/index.html)"
 For my next activity I had to code a Social Media Web Site based on an example given from Figma using HTML, CSS and JavaScript. The web site had to have an input for the post title, another for the post content and a button to submit your post. This post had to show on top of other posts made by other people. I also had to code a working follow button for the people in the suggestions and a working like button on every post. On top of all that the web site had to be responsive, and most importantly, mobile first.<br />
 <br />
-`scaffolding` `dialog` `input` `css variables` `flexbox` `backdrop` `overflow` `media query` `function` `variables` `data type` `boolean` `conditionals` `arrays` `methods` `objects` `DOM` `+`
+`scaffolding` `dialog` `input` `css variables` `flexbox` `backdrop` `overflow` `media query` `function` `variables` `data type` `boolean` `conditionals` `arrays` `methods` `es module` `objects` `DOM` `+`
 
 ## S4-14-M2 - 02/17/23 - "[GIT SEARCH](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-4/S4-14-M2/index.html)"
 For my next activity I had to code a GitHub User Search Website based on an example given from Figma using HTML, CSS and JavaScript. The website uses the GitHub API to search for users on GitHub. If a user doesn't exist the website redirects you to an error page with a button to go back to the home page where you can try again. If the user is found the website redirects you to a profile page where you can see the user's picture, name and public repositories available. It also has a button to take you to a specific repository.<br />
@@ -71,11 +71,12 @@ Waiting for the API to be fixed.
 ## S5-07-M2 - 02/24/23 - "[MANIPULANDO TOKEN](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-5/S5-07-M2/index.html)"
 Waiting for the API to be fixed.
 
-## S6-03-M2 - 02/27/23 - "[ATUALIZANDO UM ARRAY COM SPREAD E DESTRUCTURING](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-6/S6-03-M2/index.html)"
-Still coding.
-
 ## S6-17-M2 - 03/03/23 - "[PETINFO](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-6/S6-17-M2/front-end/index.html)"
-Still coding.
+For my next activity I had to code a Social Media Page for pet owners based on an example given from Figma using HTML, CSS and JavaScript. The website uses the Petinfo API which only runs locally. It has a log in and sign up page, getting the info from the API. When logged in you can see other people's posts and make your own as well. You can also edit and delete your own posts. When you're done you can log out using the dropdown menu.<br />
+→ <b>This project uses an API that has to be open locally to work, you can find the API inside the back-end folder.</b><br />
+<br />
+`scaffolding` `input` `dialog` `snackbar` `css variables` `flexbox` `hover` `focus` `backdrop` `function` `variables` `data type` `boolean` `conditionals` `objects` `methods` `es module` `DOM` `JSON` `local storage` `token` `API` `+`
+
 
 <hr />
 
