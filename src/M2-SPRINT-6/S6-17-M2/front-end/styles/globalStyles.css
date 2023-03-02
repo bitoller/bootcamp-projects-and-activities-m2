@@ -1,26 +1,85 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 16px;
+  color: var(--color-gray-1);
+}
+
+p.error {
+  color: var(--color-alert-1);
+  margin-bottom: 0.625rem;
+  height: 1.25rem;
+  font-size: 0.875rem;
+}
+
+input.error {
+  border: 1px solid var(--color-alert-1) !important;
+  margin-bottom: 0.500rem;
+}
+
+.snackbar,
+.display-none {
+  display: none;
+}
+
+.show-snackbar,
+.display-show {
+  display: block;
+}
+
+.snackbar {
+  width: 27.563rem;
+  height: 7.813rem;
+  padding: 21px 32px 21px 32px;
+  box-shadow: 10px 10px 30px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: var(--color-gray-9);
+  position: fixed;
+  right: 1rem;
+  bottom: 1.75rem;
+}
+
+.snackbar-title {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.063rem;
+}
+
+.snackbar-title > p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-sucess-1);
+}
+
+.snackbar > p {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.313rem;
+}
+
+.snackbar > p > a {
+  color: var(--color-brand-1);
+  font-size: 0.875rem;
+  font-weight: 400;
 }
 
 :root {
-  --brand100: "hsl(230, 57%, 50%)";
-  --brand200: "hsl(230, 68%, 54%)";
-  --gray100: "hsl(210, 11%, 15%)";
-  --gray200: "hsl(210, 10%, 23%)";
-  --gray300: "hsl(210, 9%, 31%)";
-  --gray400: "hsl(210, 7%, 56%)";
-  --gray500: "hsl(210, 11%, 71%)";
-  --gray600: "hsl(210, 16%, 93%)";
-  --gray700: "hsl(210, 17%, 95%)";
-  --gray800: "hsl(210, 17%, 98%)";
-  --gray900: "hsl(200, 100%, 99%)";
-  --alert100: "hsl(349, 57%, 50%)";
-  --alert200: "hsl(349, 69%, 55%)";
-  --sucess100: "hsl(162, 88%, 26%)";
-}
-
-body {
-  font-family: "Inter, sans-serif";
+  --color-brand-1: #364fc7;
+  --color-brand-2: #3b56d9;
+  --color-gray-1: #212529;
+  --color-gray-2: #343a40;
+  --color-gray-3: #495057;
+  --color-gray-4: #868e96;
+  --color-gray-5: #adb5bd;
+  --color-gray-6: #e9ecef;
+  --color-gray-7: #f1f3f5;
+  --color-gray-8: #f8f9fa;
+  --color-gray-9: #fcfeff;
+  --color-alert-1: #c73650;
+  --color-alert-2: #db3c58;
+  --color-sucess-1: #087f5b;
 }

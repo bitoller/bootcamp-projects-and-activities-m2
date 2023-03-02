@@ -1,0 +1,366 @@
+.header {
+  width: 50rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4.188rem;
+  margin-bottom: 4.063rem;
+}
+
+.header > h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.user-side {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+#new-post {
+  height: 2.375rem;
+  width: 9.5rem;
+  background-color: var(--color-brand-1);
+  border: 1px solid var(--color-brand-1);
+  border-radius: 4px;
+  color: var(--color-gray-9);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#dropdown-menu {
+  background: none;
+  position: relative;
+}
+
+#dropdown-menu > img {
+  height: 2.563rem;
+  width: 2.563rem;
+  border: 1px solid var(--color-brand-1);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.menu-content {
+  position: absolute;
+  right: 0rem;
+  background-color: var(--color-gray-9);
+  width: 12.813rem;
+  height: auto;
+  box-shadow: 0px 4px 40px -12px rgba(0, 0, 0, 0.25);
+}
+
+.menu-content > p {
+  width: 100%;
+  display: flex;
+  font-weight: 500;
+  padding: 20px;
+}
+
+.menu-content > button {
+  width: 100%;
+  background: none;
+  cursor: pointer;
+  opacity: 0.2;
+  display: flex;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.menu-content > button:hover {
+  opacity: 1;
+  background-color: var(--color-gray-7);
+}
+
+.menu-content > button > img {
+  margin-right: 1.25rem;
+}
+
+.menu-content > button > span {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.feed {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  background-color: var(--color-gray-8);
+  margin-bottom: 2.188rem;
+}
+
+.feed > h2 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  width: 50rem;
+  margin: 0 auto;
+}
+
+#posts-feed {
+  width: 50rem;
+  margin: 0 auto;
+}
+
+.post-container {
+  width: 100%;
+  height: auto;
+}
+
+.mini-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.938rem;
+}
+
+.user-date {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.user-img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.user-date p:nth-of-type(1) {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.user-date p:nth-of-type(2) {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--color-gray-6);
+}
+
+.user-date p:nth-of-type(3) {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-gray-4);
+}
+
+.mini-buttons {
+  display: flex;
+  gap: 0.688rem;
+}
+
+.edit-button {
+  height: 2rem;
+  width: 3.438rem;
+  background-color: transparent;
+  border: 1px solid var(--color-gray-6);
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.delete-button {
+  height: 2rem;
+  width: 3.75rem;
+  color: var(--color-gray-4);
+  background-color: var(--color-gray-7);
+  border: 1px solid var(--color-gray-7);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.post-container > h2 {
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.post-container > p {
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.post-container > button {
+  background-color: transparent;
+  color: var(--color-brand-1);
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+  cursor: pointer;
+}
+
+dialog {
+  border-radius: 8px;
+  border: none;
+  padding: 32px 24px 32px 24px;
+}
+
+dialog::backdrop {
+  background-color: rgba(30, 30, 30, 0.5);
+}
+
+.dialog-content {
+  width: 50rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.close-modal-button {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 4px;
+  font-family: "Nunito", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--color-gray-4);
+  background-color: var(--color-gray-6);
+  cursor: pointer;
+}
+
+.dialog-content > h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2.25rem;
+  margin-bottom: 1.875rem;
+}
+
+.dialog-content > p {
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: var(--color-gray-3);
+}
+
+.dialog-content > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.dialog-content > form > label {
+  font-weight: 500;
+  margin-bottom: 0.688rem;
+}
+
+#post-title-input {
+  height: 2.75rem;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding-left: 1.313rem;
+  background-color: var(--color-gray-8);
+  margin-bottom: 1.25rem;
+}
+
+#post-title-input::placeholder {
+  color: var(--color-gray-4);
+  font-weight: 400;
+}
+
+#post-title-input:focus {
+  border-color: var(--color-gray-1);
+}
+
+#post-title-input:focus::placeholder {
+  color: transparent;
+}
+
+#post-content-input {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  background-color: var(--color-gray-8);
+  margin-bottom: 2.5rem;
+  font-size: 1rem;
+  font-family: "IBM Plex Sans", sans-serif;
+  padding: 0.625rem 1.063rem;
+}
+
+#post-content-input::placeholder {
+  font-size: 1rem;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: var(--color-gray-3);
+}
+
+#post-content-input:focus {
+  outline: none !important;
+  border: 1px solid var(--color-gray-1);
+}
+
+#post-content-input:focus::placeholder {
+  color: transparent;
+}
+
+.modal-content {
+  width: 50rem;
+  height: auto;
+}
+
+.modal-content > h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.modal-content > p {
+  font-weight: 400;
+  color: var(--color-gray-3);
+  margin-bottom: 2.875rem;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.modal-header > h2 {
+  font-size: 1.25;
+  font-weight: 500;
+}
+
+.buttons-modal-div {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.cancel-button-modal {
+  height: 2.375rem;
+  width: 6.563rem;
+  background-color: var(--color-gray-6);
+  border-radius: 4px;
+  color: var(--color-gray-4);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.buttons-modal-div button:nth-of-type(2) {
+  height: 2.375rem;
+  width: auto;
+  background-color: var(--color-brand-1);
+  border-radius: 4px;
+  color: var(--color-gray-9);
+  font-weight: 500;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  cursor: pointer;
+}
+
+.buttons-modal-div-delete {
+  display: flex;
+  gap: 1rem;
+}
+
+.delete-button-modal {
+  height: 2.375rem;
+  width: 11.813rem;
+  border-radius: 4px;
+  background-color: var(--color-alert-1);
+  color: var(--color-gray-9);
+  cursor: pointer;
+}

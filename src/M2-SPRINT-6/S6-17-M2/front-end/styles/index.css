@@ -1,0 +1,131 @@
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.container-left {
+  height: 29.938rem;
+  width: 24.438rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.container-left > h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 3rem;
+  margin-bottom: 1.5rem;
+  width: 24.438rem;
+}
+
+.container-left > h1 > span {
+  color: var(--color-brand-1);
+}
+
+.container-left > p {
+  color: var(--color-gray-3);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+  width: 20rem;
+}
+
+.container-right {
+  height: auto;
+  width: 23rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border: 1px solid var(--color-gray-6);
+  border-radius: 4px;
+  background-color: var(--color-gray-9);
+  padding: 44px 24px 44px 24px;
+}
+
+.container-right > h2 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 1.625rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form > label {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+
+#email,
+#password {
+  height: 2.75rem;
+  width: 20.063rem;
+  background-color: var(--color-gray-8);
+  border: 1px solid var(--color-gray-6);
+  border-radius: 4px;
+  padding-left: 1rem;
+}
+
+#email::placeholder,
+#password::placeholder {
+  color: var(--color-gray-4);
+  font-weight: 400;
+}
+
+#email:focus,
+#password:focus {
+  border-color: var(--color-gray-1);
+}
+
+#email:focus::placeholder,
+#password:focus::placeholder {
+  color: transparent;
+}
+
+#submit {
+  height: 2.375rem;
+  width: 20.063rem;
+  background-color: var(--color-brand-1);
+  border: 1px solid var(--color-brand-1);
+  border-radius: 4px;
+  color: var(--color-gray-9);
+  font-weight: 500;
+  margin-bottom: 1.625rem;
+  cursor: pointer;
+}
+
+.container-right > p {
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.313rem;
+  margin-bottom: 1.25rem;
+  width: 100%;
+}
+
+.container-right p:nth-of-type(2) {
+  font-weight: 400;
+}
+
+button {
+  height: 2.375rem;
+  width: 20rem;
+  border: 1px solid var(--color-gray-6);
+  border-radius: 4px;
+  background-color: transparent;
+  font-weight: 500;
+  cursor: pointer;
+}

@@ -7,8 +7,49 @@
     <meta name="author" content="Bianca Toller" />
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/globalStyles.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
     <script type="module" src="./scripts/index.js" defer></script>
-    <title>PetInfo</title>
+    <title>Log In - PetInfo</title>
   </head>
-  <body></body>
+  <body>
+    <div class="main-container">
+      <div class="container-left">
+        <h1>Petinfo</h1>
+        <h1>
+          <span>Amor</span> e <span>carinho</span> por meio do conhecimento
+        </h1>
+        <p>
+          Todas as informações para melhorar a vida do seu pet em um só lugar
+        </p>
+        <img src="./assets/img-login.jpg" alt="pets img" />
+      </div>
+      <div class="container-right">
+        <h2>Login</h2>
+        <form>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Digite seu email"
+          />
+          <p class="error" id="email-error"></p>
+          <label for="password">Senha</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required
+            placeholder="Digite sua senha"
+          />
+          <p class="error" id="password-error"></p>
+          <input type="submit" id="submit" value="Acessar" />
+        </form>
+        <p>Ainda não possui conta?</p>
+        <p>Clicando no botão abaixo, você pode se cadastrar rapidamente</p>
+        <button type="button" id="signup">Cadastrar</button>
+      </div>
+    </div>
+  </body>
 </html>

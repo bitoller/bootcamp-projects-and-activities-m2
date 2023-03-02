@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Bianca Toller" />
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/globalStyles.css" />
+    <link rel="stylesheet" href="../styles/signup.css" />
+    <script type="module" src="../scripts/signup.js" defer></script>
+    <title>Sign Up - PetInfo</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="container-left">
+        <div>
+          <h2>Cadastro</h2>
+          <button id="backtologin1">Voltar para o login</button>
+        </div>
+        <form>
+          <label for="user">Usuário</label>
+          <input
+            type="text"
+            id="user"
+            name="user"
+            required
+            placeholder="Digite seu usuário aqui"
+          />
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Digite seu email aqui"
+          />
+          <label for="photo">Link da foto do perfil</label>
+          <input
+            type="text"
+            id="photo"
+            name="photo"
+            required
+            placeholder="Insira o link aqui"
+          />
+          <label for="password">Senha</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required
+            placeholder="Digite sua senha"
+          />
+          <input type="submit" id="submit" value="Cadastrar" />
+        </form>
+        <button id="backtologin2">Voltar para o login</button>
+      </div>
+      <div class="container-right">
+        <h1>Petinfo</h1>
+        <h1>Ooooooba!</h1>
+        <p>
+          Agora vamos poder contribuir para o bem estar do seu pet por meio do
+          conhecimento
+        </p>
+        <img src="../assets/img-register.png" alt="pets img" />
+      </div>
+    </div>
+    <div id="snackbar" class="snackbar">
+      <div class="snackbar-title">
+        <img
+          src="../assets/checkmark.png"
+          alt="checkmark"
+          width="24px"
+          height="auto"
+        />
+        <p>Sua conta foi criada com sucesso!</p>
+      </div>
+      <p>
+        Agora você pode acessar os conteúdos utilizando seu usuário e senha na
+        página de login: <a href="../index.html">Acessar página de login</a>
+      </p>
+    </div>
+  </body>
+</html>

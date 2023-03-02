@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Bianca Toller" />
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/globalStyles.css" />
+    <link rel="stylesheet" href="../styles/feed.css" />
+    <script type="module" src="../scripts/feed.js" defer></script>
+    <title>Feed - PetInfo</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <h1>PetInfo</h1>
+        <div class="user-side">
+          <button id="new-post">Criar publicação</button>
+          <button id="dropdown-menu">
+            <img
+              src="https://imgs.search.brave.com/dmNsyBvLmS4jetkOvFsxVmpaniEqqxT8BaNBAI-_7jM/rs:fit:416:416:1/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vcGhvdG9z/L2ljb24tb2YtYS1i/dXNpbmVzc21hbi1h/dmF0YXItb3ItcHJv/ZmlsZS1waWMtcGlj/dHVyZS1pZDQ3NDAw/MTg5Mj9rPTYmbT00/NzQwMDE4OTImcz0x/NzA2NjdhJnc9MCZo/PWF0cVpzV0YtVWNM/QkQ1dTJCTVpqcE11/cjZKOW56aVFyclBh/aXFaaDU3S1k9"
+              alt="profile pic"
+              id="profile-pic"
+            />
+          </button>
+        </div>
+      </div>
+    </header>
+    <div class="feed">
+      <h2>Feed</h2>
+    </div>
+    <section id="posts-feed"></section>
+    <dialog id="dialog"></dialog>
+    <div id="snackbar" class="snackbar">
+      <div class="snackbar-title">
+        <img
+          src="../assets/checkmark.png"
+          alt="checkmark"
+          width="24px"
+          height="auto"
+        />
+        <p>Post deletado com sucesso!</p>
+      </div>
+      <p>
+        O post selecionado para exclusão foi deletado, a partir de agora não
+        aparecerá no seu feed
+      </p>
+    </div>
+  </body>
+</html>
