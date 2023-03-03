@@ -77,6 +77,9 @@ For my next activity I had to code a Social Media Page for pet owners based on a
 <br />
 `scaffolding` `input` `dialog` `snackbar` `css variables` `flexbox` `hover` `focus` `backdrop` `function` `variables` `data type` `boolean` `conditionals` `objects` `methods` `es module` `DOM` `JSON` `local storage` `token` `API` `+`
 
+## S7-01-M2 - 03/03/23 - "[EMPRESAS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-7/S7-01-M2/front-end/home.html)"
+Still coding.
+
 
 <hr />
 
