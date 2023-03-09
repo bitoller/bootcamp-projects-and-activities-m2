@@ -65,11 +65,8 @@ For my next activity I had to code a GitHub User Search Website based on an exam
 <br />
 `scaffolding` `css variables` `flexbox` `function` `variables` `data type` `boolean` `conditionals` `methods` `DOM` `JSON` `local storage` `API` `+`
 
-## S5-04-M2 - 02/23/23 - "[GET, POST, PATCH E DELETE](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-5/S5-04-M2/front-end/index.html)"
-Waiting for the API to be fixed.
-
-## S5-07-M2 - 02/24/23 - "[MANIPULANDO TOKEN](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-5/S5-07-M2/index.html)"
-Waiting for the API to be fixed.
+## S5-14-M2 - "[POKÉAPI](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-5/S5-14-M2/index.html)"
+Still coding.
 
 ## S6-17-M2 - 03/03/23 - "[PETINFO](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-6/S6-17-M2/front-end/index.html)"
 For my next activity I had to code a Social Media Page for pet owners based on an example given from Figma using HTML, CSS and JavaScript. The website uses the Petinfo API which only runs locally. It has a log in and sign up page, getting the info from the API. When logged in you can see other people's posts and make your own as well. You can also edit and delete your own posts. When you're done you can log out using the dropdown menu.<br />
