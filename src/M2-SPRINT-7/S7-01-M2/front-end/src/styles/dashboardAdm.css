@@ -1,0 +1,462 @@
+/* 
+  ::-webkit-scrollbar {
+    width: 11px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-brand-1);
+  }
+  ::-webkit-scrollbar-track {
+    background: #f8f8f8;
+  } 
+*/
+
+.header-desktop {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--color-gray-2);
+  background-repeat: no-repeat;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.header-buttons {
+  display: flex;
+  position: relative;
+  gap: 0.625rem;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 59%;
+  margin: 0 auto;
+  margin-top: 6.5rem;
+  margin-bottom: 1.188rem;
+}
+
+.main-header > h2 {
+  font-size: 1.875rem;
+  font-weight: 700;
+}
+
+#select-company {
+  height: 2rem;
+  width: 17.625rem;
+  font-size: 1.25rem;
+  border-radius: 15px;
+  padding-left: 1.25rem;
+  cursor: pointer;
+}
+
+#create-dpt {
+  height: 3rem;
+  width: 9.375rem;
+  display: flex;
+  align-items: center;
+  gap: 0.563rem;
+  padding-left: 1rem;
+}
+
+#all-dpts,
+#all-users {
+  height: 24.063rem;
+  max-width: 59%;
+  margin: 0 auto;
+}
+
+#all-dpts {
+  margin-bottom: 4.313rem;
+}
+
+.dpt-list {
+  height: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4.938rem;
+  padding: 2.125rem 3.5rem;
+  background-color: #f8f8f8;
+}
+
+.dpt-list::-webkit-scrollbar {
+  width: 11px;
+}
+.dpt-list::-webkit-scrollbar-thumb {
+  background: var(--color-brand-1);
+}
+.dpt-list::-webkit-scrollbar-track {
+  background: #f8f8f8;
+}
+
+.dpt-card {
+  height: 12.25rem;
+  width: 28.75rem;
+  background-color: var(--color-gray-2);
+  border-bottom: 1px solid var(--color-brand-1);
+  padding: 1.125rem 1.813rem;
+}
+
+.dpt-card > h5 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.563rem;
+}
+
+.dpt-card p:nth-of-type(1) {
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-bottom: 0.625rem;
+}
+
+.dpt-card p:nth-of-type(2) {
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-bottom: 1.875rem;
+}
+
+.dpt-all-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.dpt-all-buttons > button {
+  background: none;
+}
+
+section > h2 {
+  max-width: 59%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.user-list {
+  height: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4.938rem;
+  padding: 2.125rem 3.5rem;
+  background-color: #f8f8f8;
+}
+
+.user-list::-webkit-scrollbar {
+  width: 11px;
+}
+.user-list::-webkit-scrollbar-thumb {
+  background: var(--color-brand-1);
+}
+.user-list::-webkit-scrollbar-track {
+  background: #f8f8f8;
+}
+
+.user-card {
+  height: 12.25rem;
+  width: 28.75rem;
+  background-color: var(--color-gray-2);
+  border-bottom: 1px solid var(--color-brand-1);
+  padding: 1.125rem 1.813rem;
+}
+
+.user-card > h5 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.563rem;
+}
+
+.user-card p:nth-of-type(1) {
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-bottom: 0.625rem;
+}
+
+.user-card p:nth-of-type(2) {
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.user-all-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.user-all-buttons > button {
+  background: none;
+}
+
+dialog::backdrop {
+  background-color: rgba(70, 35, 167, 0.13);
+}
+
+.dialog-edit-user {
+  border: none;
+  height: 21.375rem;
+  width: 31.625rem;
+}
+
+.dialog-content-edituser {
+  position: relative;
+  padding: 2.438rem 3.063rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.dialog-content-edituser > h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1.25rem;
+}
+
+.dialog-content-edituser > form > select {
+  outline: none;
+  font-size: 1.063rem;
+  font-weight: 400;
+}
+
+.dialog-remove-user {
+  border: none;
+  height: 18.25rem;
+  width: 45.813rem;
+}
+
+.dialog-content-removeuser {
+  position: relative;
+  padding: 4.375rem 9.813rem 3.5rem 9.813rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.dialog-content-removeuser > h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  line-height: 2.625rem;
+  margin-bottom: 2.125rem;
+  text-align: center;
+}
+
+.dialog-dpt {
+  border: none;
+  height: 39.813rem;
+  width: 53.563rem;
+}
+
+.dialog-content-dpt {
+  position: relative;
+  padding: 2.438rem 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.dialog-content-dpt > h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1.25rem;
+}
+
+.modal-header-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3.188rem;
+}
+
+.modal-header-div-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.688rem;
+}
+
+.modal-header-div-left > h5 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+
+.modal-header-div-left > p {
+  font-size: 1.125rem;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+.modal-header-div-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#user-select-input {
+  width: 26.375rem;
+}
+
+.for-hire-div {
+  height: 18.125rem;
+  background-color: #f8f8f8;
+}
+
+.for-hire-list {
+  width: 100%;
+  overflow-x: auto;
+  padding: 2.688rem 2.063rem;
+  display: flex;
+  gap: 1.938rem;
+}
+
+.for-hire-list::-webkit-scrollbar {
+  width: 11px;
+}
+
+.for-hire-list::-webkit-scrollbar-thumb {
+  background: var(--color-brand-1);
+}
+
+.for-hire-list::-webkit-scrollbar-track {
+  background: #f8f8f8;
+}
+
+.for-hire-cards {
+  height: 12.25rem;
+  width: 19.125rem;
+  background-color: var(--color-gray-2);
+  padding: 1.125rem 1.813rem;
+  border-bottom: 1px solid var(--color-brand-1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.for-hire-cards p:nth-of-type(1) {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.563rem;
+  align-self: flex-start;
+}
+
+.for-hire-cards p:nth-of-type(2) {
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-bottom: 0.625rem;
+  align-self: flex-start;
+}
+
+.for-hire-cards p:nth-of-type(3) {
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-bottom: 1.375rem;
+  align-self: flex-start;
+}
+
+.dialog-create-dpt {
+  border: none;
+  height: 25.125rem;
+  width: 31.625rem;
+}
+
+.dialog-content-createdpt {
+  position: relative;
+  padding: 2.438rem 3.063rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.dialog-content-createdpt > h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1.25rem;
+}
+
+.dialog-content-createdpt > form > select {
+  outline: none;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.dialog-edit-dpt {
+  border: none;
+  height: 20.625rem;
+  width: 31.625rem;
+}
+
+.dialog-content-editdpt {
+  position: relative;
+  padding: 2.438rem 3.063rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.dialog-content-editdpt > h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1.25rem;
+}
+
+#description-input {
+  height: 6.25rem;
+  width: 23.438rem;
+  text-align: start;
+  outline: none;
+  padding: 0.938rem;
+  font-family: "Inter", sans-serif;
+  font-size: 1.063rem;
+  font-weight: 400;
+}
+
+#description-input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.dialog-delete-dpt {
+  border: none;
+  height: 21.375rem;
+  width: 45.813rem;
+}
+
+.dialog-content-deletedpt {
+  position: relative;
+  padding: 4.375rem 9.813rem 3.5rem 9.813rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.dialog-content-deletedpt > h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  line-height: 2.625rem;
+  margin-bottom: 2.125rem;
+  text-align: center;
+}
+
+.close-modal-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.all-inputs {
+  width: 100%;
+  margin-bottom: 0.813rem;
+}
+
+.button-width {
+  width: 100%;
+}

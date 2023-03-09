@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Bianca Toller" />
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/globalStyles.css" />
+    <link rel="stylesheet" href="../styles/dashboardUser.css" />
+    <script type="module" src="../scripts/dashboardUser.js" defer></script>
+    <title>Dashboard User - Empresas</title>
+  </head>
+  <body>
+    <header class="header-desktop">
+      <div class="logo">
+        <figure>
+          <img src="../assets/logo.png" alt="logo" />
+        </figure>
+      </div>
+      <div class="header-buttons">
+        <button id="header-button-signout" class="white-button">Logout</button>
+      </div>
+    </header>
+    <main>
+      <div id="user-info" class="user-info-container"></div>
+      <div id="company-info" class="company-info-container">
+        <div class="company-info-container-h1">
+          <h1>Você ainda não foi contratado</h1>
+        </div>
+      </div>
+    </main>
+    <dialog id="dialog"></dialog>
+  </body>
+</html>

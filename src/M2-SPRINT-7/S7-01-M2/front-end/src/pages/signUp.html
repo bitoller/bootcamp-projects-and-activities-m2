@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Bianca Toller" />
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/globalStyles.css" />
+    <link rel="stylesheet" href="../styles/signUp.css" />
+    <script type="module" src="../scripts/signUp.js" defer></script>
+    <title>Sign Up - Empresas</title>
+  </head>
+  <body>
+    <header class="header-desktop header-mobile">
+      <div class="logo">
+        <img src="../assets/logo.png" alt="logo" />
+      </div>
+      <div class="header-buttons header-buttons-show">
+        <button id="header-button-home" class="white-button">Home</button>
+        <button id="header-button-signin" class="purple-button">Login</button>
+      </div>
+      <div class="header-menu-button">
+        <button class="button-open">
+          <img src="../assets/menu.png" class="menu-button-img" />
+        </button>
+      </div>
+    </header>
+    <main>
+      <div class="signup-container">
+        <h1>Cadastre-se</h1>
+        <form>
+          <input
+            type="text"
+            id="username"
+            class="all-inputs"
+            name="username"
+            required
+            placeholder="Seu nome"
+          />
+          <input
+            type="email"
+            id="email"
+            class="all-inputs"
+            name="email"
+            required
+            placeholder="Seu e-mail"
+          />
+          <input
+            type="password"
+            id="password"
+            class="all-inputs"
+            name="password"
+            required
+            placeholder="Sua senha"
+          />
+          <select
+            name="professional-level"
+            id="professional-level"
+            class="all-inputs"
+          >
+            <option value="">Nível profissional</option>
+            <option value="estágio">Estágio</option>
+            <option value="júnior">Júnior</option>
+            <option value="pleno">Pleno</option>
+            <option value="sênior">Sênior</option>
+          </select>
+          <input
+            type="submit"
+            id="submit"
+            class="purple-button"
+            value="Cadastre-se"
+          />
+        </form>
+        <button id="back-to-signin" class="white-button">Retornar</button>
+      </div>
+    </main>
+  </body>
+</html>

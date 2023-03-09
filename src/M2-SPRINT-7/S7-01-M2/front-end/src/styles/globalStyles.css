@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+/* 
+font-family: 'Roboto', sans-serif;
+font-family: 'Poppins', sans-serif;
+ */
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: var(--color-gray-1);
+  height: 100vh;
+}
+
+.white-button {
+  background-color: var(--color-gray-2);
+  border: 1px solid var(--color-brand-1);
+  color: var(--color-brand-1);
+  height: 3rem;
+  width: 9.326rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+.purple-button {
+  background-color: var(--color-brand-1);
+  color: var(--color-gray-2);
+  height: 3rem;
+  width: 9.326rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.green-button {
+  background-color: var(--color-toast-success);
+  color: var(--color-gray-2);
+  height: 3rem;
+  width: 9.813rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.red-button {
+  background-color: var(--color-gray-2);
+  color: var(--color-toast-error);
+  border: 1px solid var(--color-toast-error);
+  height: 3rem;
+  width: 9.813rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.snackbar-container {
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  height: 4.25rem;
+  width: 12.938rem;
+  color: var(--color-gray-2);
+  font-weight: 700;
+  line-height: 1.059rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error {
+  background-color: var(--color-toast-error);
+}
+
+.success {
+  background-color: var(--color-toast-success);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.all-inputs {
+  height: 3.25rem;
+  padding-left: 1.063rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.125rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+:root {
+  --color-brand-1: #4200ff;
+  --color-gray-1: #000000;
+  --color-gray-2: #ffffff;
+  --color-toast-success: #4ba036;
+  --color-toast-error: #ce4646;
+}

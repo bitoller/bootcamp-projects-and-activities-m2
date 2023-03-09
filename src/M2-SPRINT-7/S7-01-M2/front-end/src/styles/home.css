@@ -1,0 +1,199 @@
+.header-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 3.75rem;
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.logo > img {
+  height: 0.931rem;
+  width: 8.875rem;
+}
+
+.header-buttons {
+  display: none;
+}
+
+.header-buttons-show {
+  position: absolute;
+  top: 59px;
+  height: 5.938rem;
+  width: 100%;
+  text-align: center;
+  background-color: var(--color-gray-2);
+}
+
+.button-open {
+  background: none;
+}
+
+.show {
+  display: block;
+}
+
+.container-left {
+  display: none;
+}
+
+.main-containers {
+  width: 100%;
+  display: flex;
+  gap: 6.625rem;
+  justify-content: center;
+  margin-top: 1.438rem;
+  margin-bottom: 2.688rem;
+}
+
+.container-right {
+  width: 100%;
+  height: 46.438rem;
+  background-color: #f8f8f8;
+  box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.12);
+}
+
+.sector-bar {
+  height: 3.25rem;
+  width: 100%;
+}
+
+#sector-filter {
+  height: 3.25rem;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--color-gray-2);
+  background-color: var(--color-brand-1);
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+}
+
+.list {
+  height: 93%;
+}
+
+#companies-list {
+  overflow-x: auto;
+  display: flex;
+  padding: 1.563rem 1.875rem;
+  gap: 1.375rem;
+}
+
+#companies-list::-webkit-scrollbar {
+  width: 11px;
+}
+
+#companies-list::-webkit-scrollbar-thumb {
+  background: var(--color-brand-1);
+}
+
+#companies-list::-webkit-scrollbar-track {
+  background: #f8f8f8;
+}
+
+.card {
+  height: 13.188rem;
+  width: 15.063rem;
+  padding: 0.813rem 1.563rem;
+  border-bottom: 1px solid var(--color-brand-1);
+  background-color: var(--color-gray-2);
+}
+
+.card > h5 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 4.625rem;
+}
+
+.card p:nth-of-type(1) {
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.card p:nth-of-type(2) {
+  height: 2rem;
+  width: 8.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 400;
+  border-radius: 15.938rem;
+  cursor: default;
+}
+
+main {
+  padding: 0 0.875rem;
+}
+
+@media (min-width: 1023px) {
+  .header-desktop {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1;
+    background-color: var(--color-gray-2);
+    background-repeat: no-repeat;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .button-open {
+    display: none;
+  }
+
+  .header-buttons {
+    display: flex;
+    position: relative;
+    gap: 0.625rem;
+  }
+
+  .header-buttons-show {
+    top: unset;
+    height: auto;
+    width: auto;
+  }
+
+  .header-menu-button {
+    display: none;
+  }
+
+  .logo > img {
+    height: auto;
+    width: 100%;
+  }
+
+  .main-containers {
+    margin-top: 2.688rem;
+  }
+
+  .container-left {
+    width: 34.375rem;
+    height: 46.438rem;
+    display: block;
+  }
+
+  .container-right {
+    width: 34.375rem;
+  }
+
+  #companies-list {
+    height: 100%;
+    width: auto;
+    overflow-y: auto;
+    flex-direction: column;
+  }
+
+  .card {
+    height: 8.438rem;
+    width: 30.563rem;
+  }
+
+  .card > h5 {
+    margin-bottom: 0.813rem;
+  }
+}

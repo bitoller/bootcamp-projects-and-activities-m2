@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Bianca Toller" />
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/globalStyles.css" />
+    <link rel="stylesheet" href="../styles/dashboardAdm.css" />
+    <script type="module" src="../scripts/dashboardAdm.js" defer></script>
+    <title>Dashboard Admin - Empresas</title>
+  </head>
+  <body>
+    <header class="header-desktop">
+      <div class="logo">
+        <figure>
+          <img src="../assets/logo.png" alt="logo" />
+        </figure>
+      </div>
+      <div class="header-buttons">
+        <button id="header-button-signout" class="white-button">Logout</button>
+      </div>
+    </header>
+    <main>
+      <div class="main-header">
+        <h2>Departamentos</h2>
+        <select name="select-company" id="select-company"></select>
+        <button id="create-dpt" class="purple-button">
+          <img src="../assets/add.png" class="add-button" />Criar
+        </button>
+      </div>
+      <div id="all-dpts"></div>
+      <section>
+        <h2>Usuários cadastrados</h2>
+        <div id="all-users"></div>
+      </section>
+    </main>
+    <dialog id="dialog1"></dialog>
+    <dialog id="dialog2"></dialog>
+    <dialog id="dialog3"></dialog>
+    <dialog id="dialog4"></dialog>
+    <dialog id="dialog5"></dialog>
+    <dialog id="dialog6"></dialog>
+  </body>
+</html>

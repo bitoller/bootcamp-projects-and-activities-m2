@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Bianca Toller" />
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/globalStyles.css" />
+    <link rel="stylesheet" href="../styles/signIn.css" />
+    <script type="module" src="../scripts/signIn.js" defer></script>
+    <title>Sign In - Empresas</title>
+  </head>
+  <body>
+    <header class="header-desktop header-mobile">
+      <div class="logo">
+        <img src="../assets/logo.png" alt="logo" />
+      </div>
+      <div class="header-buttons header-buttons-show">
+        <button id="header-button-home" class="white-button">Home</button>
+        <button id="header-button-signup" class="purple-button">
+          Cadastro
+        </button>
+      </div>
+      <div class="header-menu-button">
+        <button class="button-open">
+          <img src="../assets/menu.png" class="menu-button-img" />
+        </button>
+      </div>
+    </header>
+    <main>
+      <div class="signin-container">
+        <h1>Login</h1>
+        <p>Preencha os campos para realizar login</p>
+        <form>
+          <input
+            type="email"
+            id="email"
+            class="all-inputs"
+            name="email"
+            required
+            placeholder="Seu e-mail"
+          />
+          <input
+            type="password"
+            id="password"
+            class="all-inputs"
+            name="password"
+            required
+            placeholder="Sua senha"
+          />
+          <input
+            type="submit"
+            id="submit"
+            class="purple-button"
+            value="Login"
+          />
+        </form>
+        <p>ou</p>
+        <button type="button" id="main-button-signup" class="white-button">
+          Cadastre-se
+        </button>
+      </div>
+    </main>
+  </body>
+</html>
