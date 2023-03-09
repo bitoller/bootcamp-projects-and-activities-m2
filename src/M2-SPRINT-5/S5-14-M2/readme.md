@@ -5,7 +5,7 @@ Nesta entrega utilizaremos a PokéAPI, se atente sempre a documentação oficial
 
 Fala devs!
 
-Nessa atividade iremos aprender a como consumir uma API RESTful desenvolvendo um pequeno projeto que irá utilizar a API do Pokémon para listar Pokémon. Para isso, será necessário utilizarmos a função fetch do JavaScript. Vamos nessa?!
+Nessa atividade iremos aprender a como consumir uma API RESTful desenvolvendo um pequeno projeto que irá utilizar a <a href="https://pokeapi.co/">API do Pokémon</a> para listar Pokémon. Para isso, será necessário utilizarmos a função fetch do JavaScript. Vamos nessa?!
 
 Design
 Essa será a base para desenvolvermos a <a href="https://www.figma.com/file/Jc4DLi3BhrRTYN7IoBxG0T/Pok%C3%A9API?node-id=0%3A1&t=zcdoUH6RoPCikj4d-1">interface da aplicação</a>
