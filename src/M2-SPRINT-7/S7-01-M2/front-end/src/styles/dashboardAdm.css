@@ -1,15 +1,3 @@
-/* 
-  ::-webkit-scrollbar {
-    width: 11px;
-  }
-  ::-webkit-scrollbar-thumb {
-    background: var(--color-brand-1);
-  }
-  ::-webkit-scrollbar-track {
-    background: #f8f8f8;
-  } 
-*/
-
 .header-desktop {
   height: 5rem;
   display: flex;
