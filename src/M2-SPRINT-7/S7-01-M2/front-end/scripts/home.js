@@ -26,11 +26,11 @@ function buttons() {
 }
 
 function signInRedirect() {
-  window.location.replace("./pages/signIn.html");
+  window.location.replace("../../../S7-01-M2/front-end/pages/signIn.html");
 }
 
 function signUpRedirect() {
-  window.location.replace("./pages/signUp.html");
+  window.location.replace("../../../S7-01-M2/front-end/pages/signUp.html");
 }
 
 async function getSectors() {
