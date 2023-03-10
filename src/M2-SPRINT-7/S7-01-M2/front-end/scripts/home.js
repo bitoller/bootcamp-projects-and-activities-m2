@@ -11,9 +11,9 @@ function menuButton() {
     buttons.classList.toggle("show");
     let btnImg = document.querySelector(".menu-button-img");
     if (buttons.classList.contains("show") == true) {
-      btnImg.src = "../assets/x.png";
+      btnImg.src = "./assets/x.png";
     } else {
-      btnImg.src = "../assets/menu.png";
+      btnImg.src = "./assets/menu.png";
     }
   });
 }
@@ -26,11 +26,11 @@ function buttons() {
 }
 
 function signInRedirect() {
-  window.location.replace("../pages/signIn.html");
+  window.location.replace("./pages/signIn.html");
 }
 
 function signUpRedirect() {
-  window.location.replace("../pages/signUp.html");
+  window.location.replace("./pages/signUp.html");
 }
 
 async function getSectors() {

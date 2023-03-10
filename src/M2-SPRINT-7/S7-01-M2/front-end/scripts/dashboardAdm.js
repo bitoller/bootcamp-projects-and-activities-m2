@@ -22,7 +22,7 @@ function signOut() {
     localStorage.removeItem("token");
     createSnackbar("you've been logged out!", false);
     setTimeout(() => {
-      window.location.replace("../../index.html");
+      window.location.replace("../index.html");
     }, 2000);
   });
 }

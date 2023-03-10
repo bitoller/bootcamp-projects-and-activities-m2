@@ -1,4 +1,4 @@
-import { signUp } from "./requests.js";
+import { signIn } from "./requests.js";
 import { createSnackbar } from "./snackbar.js";
 
 function menuButton() {
@@ -20,33 +20,26 @@ function clearTokenStorage() {
 }
 
 function buttons() {
+  const signUpHeader = document.querySelector("#header-button-signup");
+  const signUpMain = document.querySelector("#main-button-signup");
+  signUpHeader.addEventListener("click", signUpRedirect);
+  signUpMain.addEventListener("click", signUpRedirect);
   const homeHeader = document.querySelector("#header-button-home");
-  const signInHeader = document.querySelector("#header-button-signin");
   homeHeader.addEventListener("click", homeRedirect);
-  signInHeader.addEventListener("click", signInRedirect);
-  const homeMain = document.querySelector("#back-to-signin");
-  homeMain.addEventListener("click", homeRedirect);
+}
+
+function signUpRedirect() {
+  window.location.replace("./pages/signUp.html");
 }
 
 function homeRedirect() {
-  window.location.replace("../../index.html");
+  window.location.replace("../index.html");
 }
 
-function signInRedirect() {
-  window.location.replace("../pages/signIn.html");
-}
-
-function signUpForm(event) {
+function signInForm(event) {
   event.preventDefault();
-  const name = document.querySelector("#username").value;
   const email = document.querySelector("#email").value;
   const password = document.querySelector("#password").value;
-  const professionalLevel = document.querySelector("#professional-level").value;
-
-  if (name == "") {
-    createSnackbar("fill out name!", true);
-    return;
-  }
   if (email == "") {
     createSnackbar("fill out email!", true);
     return;
@@ -55,14 +48,15 @@ function signUpForm(event) {
     createSnackbar("fill out password!", true);
     return;
   }
-  signUp(name, password, email, professionalLevel);
+  signIn(email, password);
 }
 
-function submitButton() {
-  const submitButton = document.querySelector("#submit");
-  submitButton.addEventListener("click", signUpForm);
+function loginButton() {
+  const loginButton = document.querySelector("#submit");
+  loginButton.addEventListener("click", signInForm);
 }
 
 menuButton();
+clearTokenStorage();
 buttons();
-submitButton();
+loginButton();
