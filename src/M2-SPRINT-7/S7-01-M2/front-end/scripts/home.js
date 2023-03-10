@@ -30,7 +30,7 @@ function signInRedirect() {
 }
 
 function signUpRedirect() {
-  window.location.replace("./pages/signUp.html");
+  window.location.replace("../../front-end/pages/signUp.html");
 }
 
 async function getSectors() {
