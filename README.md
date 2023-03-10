@@ -63,19 +63,22 @@ For my next activity I had to code a Social Media Web Site based on an example g
 ## S4-14-M2 - 02/17/23 - "[GIT SEARCH](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-4/S4-14-M2/index.html)"
 For my next activity I had to code a GitHub User Search Website based on an example given from Figma using HTML, CSS and JavaScript. The website uses the GitHub API to search for users on GitHub. If a user doesn't exist the website redirects you to an error page with a button to go back to the home page where you can try again. If the user is found the website redirects you to a profile page where you can see the user's picture, name and public repositories available. It also has a button to take you to a specific repository.<br />
 <br />
-`scaffolding` `css variables` `flexbox` `function` `variables` `data type` `boolean` `conditionals` `methods` `DOM` `JSON` `local storage` `API` `+`
+`scaffolding` `css variables` `flexbox` `function` `variables` `data type` `boolean` `conditionals` `methods` `DOM` `JSON` `local storage` `API` `CRUD` `+`
 
 ## S5-14-M2 - "[POKÉAPI](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-5/S5-14-M2/index.html)"
 Still coding.
 
 ## S6-17-M2 - 03/03/23 - "[PETINFO](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-6/S6-17-M2/front-end/index.html)"
-For my next activity I had to code a Social Media Page for pet owners based on an example given from Figma using HTML, CSS and JavaScript. The website uses the Petinfo API which only runs locally. It has a log in and sign up page, getting the info from the API. When logged in you can see other people's posts and make your own as well. You can also edit and delete your own posts. When you're done you can log out using the dropdown menu.<br />
+For my next activity I had to code a Social Media Page for pet owners based on an example given from Figma using HTML, CSS and JavaScript. The website uses the Petinfo API which only runs locally. It has a sign in and sign up page, getting the info from the API. When logged in you can see other people's posts and make your own as well. You can also edit and delete your own posts. When you're done you can log out using the dropdown menu.<br />
 → <b>This project uses an API that has to be open locally to work, you can find the API inside the back-end folder.</b><br />
 <br />
-`scaffolding` `input` `dialog` `snackbar` `css variables` `flexbox` `hover` `focus` `backdrop` `function` `variables` `data type` `boolean` `conditionals` `objects` `methods` `es module` `DOM` `JSON` `local storage` `token` `API` `+`
+`scaffolding` `input` `dialog` `snackbar` `css variables` `flexbox` `hover` `focus` `backdrop` `function` `variables` `data type` `boolean` `conditionals` `objects` `methods` `es module` `DOM` `JSON` `local storage` `token` `API` `CRUD` `+`
 
-## S7-01-M2 - 03/03/23 - "[EMPRESAS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-7/S7-01-M2/front-end/index.html)"
-The project is done but I still need to fix the file paths for it to work here.
+## S7-01-M2 - 03/03/23 - "[PROJETO FINAL M2: EMPRESAS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-7/S7-01-M2/front-end/index.html)"
+For the module's final project I had to code an HR Management Application based on an example given from Figma using HTML, CSS and JavaScript. The website uses an API which only runs locally. It has a sign in page, a sign up page and two dashboards, one for the admin and one for regular users. On the regular user page you can edit your information like name, email and password. You can also see who works in your department. On the admin page you can create departments, you can hire and fire employees, you can see all users who are registered in the system, and more. This is a mobile first website.<br />
+→ <b>This project uses an API that has to be open locally to work, you can find the API inside the back-end folder.</b><br />
+<br />
+`scaffolding` `input` `select` `dialog` `snackbar` `css variables` `flexbox` `webkit` `backdrop` `function` `variables` `data type` `boolean` `conditionals` `arrays` `objects` `methods` `es module` `DOM` `JSON` `local storage` `event listener` `token` `API` `CRUD` `+`
 
 
 <hr />
