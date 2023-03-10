@@ -26,7 +26,7 @@ function buttons() {
 }
 
 function signInRedirect() {
-  window.location.replace("./pages/signIn.html");
+  window.location.replace("../../front-end/pages/signIn.html");
 }
 
 function signUpRedirect() {
