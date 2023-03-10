@@ -33,7 +33,7 @@ function homeRedirect() {
 }
 
 function signInRedirect() {
-  window.location.replace("./pages/signIn.html");
+  window.location.replace("../pages/signIn.html");
 }
 
 function signUpForm(event) {

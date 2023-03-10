@@ -29,7 +29,7 @@ function buttons() {
 }
 
 function signUpRedirect() {
-  window.location.replace("./pages/signUp.html");
+  window.location.replace("../pages/signUp.html");
 }
 
 function homeRedirect() {

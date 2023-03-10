@@ -25,7 +25,7 @@ export async function signUp(username, password, email, seniority) {
       } else {
         createSnackbar("sign up successful!", false);
         setTimeout(() => {
-          window.location.replace("./pages/signIn.html");
+          window.location.replace("../pages/signIn.html");
         }, 2000);
       }
     })
@@ -226,13 +226,13 @@ export async function verifyUserType() {
       if (response.is_admin) {
         if (!window.location.pathname.includes("dashboardAdm")) {
           setTimeout(() => {
-            window.location.replace("./pages/dashboardAdm.html");
+            window.location.replace("../pages/dashboardAdm.html");
           }, 2000);
         }
       } else {
         if (!window.location.pathname.includes("dashboardUser")) {
           setTimeout(() => {
-            window.location.replace("./pages/dashboardUser.html");
+            window.location.replace("../pages/dashboardUser.html");
           }, 2000);
         }
       }
