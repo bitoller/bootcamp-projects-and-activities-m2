@@ -5,7 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Bianca Toller" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/globalStyles.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <script type="module" src="./scripts/index.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/4a6812667f.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
     <title>Pokédex</title>
   </head>
-  <body></body>
+  <body>
+    <img src="./assets/pokemon-logo.png" />
+    <section id="pokedex-top"></section>
+    <div class="pokedex-bottom">
+      <form>
+        <input type="text" id="pokemon-search" />
+        <button type="submit" id="pokemon-search-button">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+      <div>
+        <!-- class="pokedex-list" -->
+        <div>
+          <!-- class="pokemon-list-container" -->
+          <ul id="pokemon-list"></ul>
+        </div>
+        <div>
+          <!-- class="pokemon-browse" -->
+          <button id="back-button"><i class="fa-solid fa-arrow-up"></i></button>
+          <button id="next-button">
+            <i class="fa-solid fa-arrow-down"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
