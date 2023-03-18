@@ -15,7 +15,7 @@ export async function getAll(offset = 0) {
   return null;
 }
 
-export async function getOne(name) {
+export async function getOneWithFlavor(name) {
   const options = {
     method: "GET",
     headers: { "Content-Type": "application/json" },
@@ -24,6 +24,24 @@ export async function getOne(name) {
   let pokemon = {};
   try {
     pokemon = await fetch(`${url}pokemon-species/${name}`, options);
+    if (pokemon.status == 404) {
+      return null;
+    }
+    return pokemon.json();
+  } catch (error) {}
+
+  return null;
+}
+
+export async function getOne(name) {
+  const options = {
+    method: "GET",
+    headers: { "Content-Type": "application/json" },
+  };
+
+  let pokemon = {};
+  try {
+    pokemon = await fetch(`${url}pokemon/${name}`, options);
     if (pokemon.status == 404) {
       return null;
     }

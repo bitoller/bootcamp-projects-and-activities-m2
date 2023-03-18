@@ -1,0 +1,99 @@
+.logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 14.688rem;
+  height: auto;
+  margin-top: 1.875rem;
+  margin-bottom: 3.125rem;
+}
+
+.pokedex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.pokedex {
+  position: relative;
+  background-image: url("../assets/pokedex.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 32rem;
+  height: 28.625rem;
+}
+
+#pokedex-top {
+  height: 13rem;
+  margin-left: 5rem;
+  margin-right: 4.688rem;
+  margin-top: 0.938rem;
+}
+
+#pokedex-top > h1 {
+  height: 1.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.125rem;
+  border-bottom: 2px solid var(--color-red-1);
+}
+
+.pokedex-info-container {
+  height: 11.063rem;
+  width: 100%;
+  display: flex;
+}
+
+.container-left {
+  width: 34%;
+  height: 100%;
+  background-color: var(--color-gray-2);
+  border-right: 2px solid var(--color-red-1);
+  padding: 0.188rem;
+}
+
+.height-weight {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-div {
+  height: 10rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/pokeball.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.img-div > img {
+  width: 50%;
+  height: 40%;
+}
+
+.container-right {
+  height: 100%;
+  width: 66%;
+  background-color: var(--color-gray-3);
+}
+
+.container-right > h5 {
+  height: 1.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.125rem;
+  border-bottom: 2px solid var(--color-red-1);
+}
+
+.container-right > p {
+  width: 100%;
+  height: 148px;
+  padding: 0.188rem;
+}

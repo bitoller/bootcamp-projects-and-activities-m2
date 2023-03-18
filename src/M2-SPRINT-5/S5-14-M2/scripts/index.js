@@ -1,4 +1,4 @@
-import { getAll, getOne } from "./pokemon.js";
+import { getAll, getOne, getOneWithFlavor } from "./pokemon.js";
 
 let pageNumber = 0;
 let defaultUrlImg =
@@ -7,15 +7,16 @@ let gifUrlImg =
   "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/";
 
 async function showSelectedPokemon(name, image, id) {
+  let pokemonWithFlavor = await getOneWithFlavor(name);
   let pokemon = await getOne(name);
   let pokedexTop = document.querySelector("#pokedex-top");
   pokedexTop.innerHTML = "";
 
   let pokemonNameAndId = document.createElement("h1");
-  pokemonNameAndId.innerText = `${name} #${pokemon.id}`;
+  pokemonNameAndId.innerText = `${name} #${pokemonWithFlavor.id}`;
 
   let topContainer = document.createElement("div");
-  topContainer.classList.add("pokedex-container");
+  topContainer.classList.add("pokedex-info-container");
 
   let containerLeft = document.createElement("div");
   containerLeft.classList.add("container-left");
@@ -24,10 +25,10 @@ async function showSelectedPokemon(name, image, id) {
   heightAndWeightDiv.classList.add("height-weight");
 
   let height = document.createElement("p");
-  height.innerText = `${pokemon.height} m`; //???????????
+  height.innerText = `${pokemon.height / 10} m`;
 
   let weight = document.createElement("p");
-  weight.innerText = `${pokemon.weight} kg`; //???????????
+  weight.innerText = `${pokemon.weight / 10} kg`;
 
   let imgDiv = document.createElement("div");
   imgDiv.classList.add("img-div");
@@ -45,7 +46,8 @@ async function showSelectedPokemon(name, image, id) {
   descriptionTitle.innerText = "Description";
 
   let descriptionContent = document.createElement("p");
-  descriptionContent.innerText = pokemon.flavor_text_entries.flavor_text;
+  descriptionContent.innerText =
+    pokemonWithFlavor.flavor_text_entries[0].flavor_text;
 
   heightAndWeightDiv.append(height, weight);
   imgDiv.append(pokemonImg);
@@ -71,6 +73,27 @@ function createPokemon(image, name, id) {
   pokemon.append(pokemonButton);
 
   return pokemon;
+}
+
+function searchInput() {
+  let searchButton = document.querySelector("#pokemon-search-button");
+  searchButton.addEventListener("click", async (event) => {
+    event.preventDefault();
+    let searchInput = document.querySelector("#pokemon-search").value;
+    if (searchInput != "") {
+      let pokemon = await getOne(searchInput);
+      if (pokemon != null) {
+        document.querySelector("#pokemon-search").value = "";
+        showSelectedPokemon(
+          pokemon.name,
+          `${defaultUrlImg}${pokemon.id}.png`,
+          pokemon.id
+        );
+        let audio = new Audio("./assets/pc-on.mp3");
+        audio.play();
+      }
+    }
+  });
 }
 
 async function renderAll(pageNumber = 0) {
@@ -108,3 +131,4 @@ function browseButtons() {
 
 renderAll();
 browseButtons();
+searchInput();
