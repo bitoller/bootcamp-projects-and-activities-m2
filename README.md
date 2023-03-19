@@ -65,7 +65,7 @@ For my next activity I had to code a GitHub User Search Website based on an exam
 <br />
 `scaffolding` `css variables` `flexbox` `function` `variables` `data type` `boolean` `conditionals` `methods` `DOM` `JSON` `local storage` `API` `CRUD` `+`
 
-## S5-14-M2 - "[POKÉAPI](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-5/S5-14-M2/index.html)"
+## S5-14-M2 - "[POKÉDEX](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-5/S5-14-M2/index.html)"
 Still coding.
 
 ## S6-17-M2 - 03/03/23 - "[PETINFO](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-6/S6-17-M2/front-end/index.html)"
