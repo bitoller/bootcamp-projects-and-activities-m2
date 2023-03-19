@@ -39,6 +39,7 @@
   justify-content: center;
   font-size: 1.125rem;
   border-bottom: 2px solid var(--color-red-1);
+  text-transform: capitalize;
 }
 
 .pokedex-info-container {
@@ -94,6 +95,107 @@
 
 .container-right > p {
   width: 100%;
-  height: 148px;
+  height: 9.25rem;
   padding: 0.188rem;
 }
+
+.pokedex-bottom {
+  height: 10.438rem;
+  margin-left: 5rem;
+  margin-right: 4.688rem;
+  margin-top: 1.438rem;
+}
+
+.pokedex-bottom > form {
+  height: 1.875rem;
+  border-bottom: 2px solid var(--color-red-1);
+  padding: 0.188rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#pokemon-search {
+  background-color: var(--color-gray-4);
+  width: 19.688rem;
+  color: var(--color-gray-1);
+  padding: 0.125rem;
+}
+
+#pokemon-search-button {
+  background-color: var(--color-gray-4);
+  border-radius: 50%;
+  height: 1.5rem;
+  width: 1.5rem;
+  cursor: pointer;
+}
+
+#pokemon-search-button > i {
+  color: var(--color-gray-1);
+}
+
+.pokedex-list {
+  display: flex;
+  width: 22.313rem;
+  height: 8.625rem;
+}
+
+.pokemon-list-container {
+  width: 128%;
+}
+
+#pokemon-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#pokemon-list > li {
+  width: 3rem;
+  height: 2.875rem;
+  border-right: 1px solid var(--color-gray-4);
+  border-bottom: 1px solid var(--color-gray-4);
+}
+
+#pokemon-list > li > button {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-gray-2);
+  cursor: pointer;
+}
+
+#pokemon-list > li > button > img {
+  width: 100%;
+  height: 100%;
+}
+
+.pokemon-browse {
+  height: 100%;
+  width: 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#back-button,
+#next-button {
+  background-color: var(--color-gray-4);
+  width: 1.063rem;
+  height: 3.125rem;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+#back-button > i,
+#next-button > i {
+  color: var(--color-gray-1);
+}
+
+/* arrumar tamanho da imagem dos pokemons no topo
+arrumar tamanho das imagens estaticas no topo
+arrumar tamanho da descricao dos pokemons no topo
+algumas descricoes tem lang diferentes 
+zubat chines, sylveon japones, rapidash espanhol
+tamanho do container dos botoes de browse mais alto que o resto
+lista de pokemon bottom mais pra esquerda do que deveria
+a mudanca entre clique de um pokemon pra outro as vezes demora bastante*/
