@@ -66,7 +66,9 @@ For my next activity I had to code a GitHub User Search Website based on an exam
 `scaffolding` `css variables` `flexbox` `function` `variables` `data type` `boolean` `conditionals` `methods` `DOM` `JSON` `local storage` `API` `CRUD` `+`
 
 ## S5-14-M2 - "[POKÉDEX](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-5/S5-14-M2/index.html)"
-Still coding.
+For this extra activity I had to code a Pokédex using HTML, CSS and JavaScript. I grew up watching the show and playing the games and I knew I had to do something different and special. A simple list wouldn't do it justice. You can browse between over a thousand Pokémon using the side arrows. All Pokémon from all generations are included (depends on the API). You can select a Pokémon from the list or use the search bar to find a specific Pokémon. When you select the Pokémon you want, the Pokédex will show its name, Pokédex number, height, weight, picture and a brief description (depends on the API).<br />
+<br />
+`scaffolding` `input` `font awesome` `css variables` `flexbox` `function` `variables` `data type` `boolean` `conditionals` `objects` `methods` `es module` `DOM` `JSON` `API` `CRUD` `+`
 
 ## S6-17-M2 - 03/03/23 - "[PETINFO](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2/src/M2-SPRINT-6/S6-17-M2/front-end/index.html)"
 For my next activity I had to code a Social Media Page for pet owners based on an example given from Figma using HTML, CSS and JavaScript. The website uses the Petinfo API which only runs locally. It has a sign in and sign up page, getting the info from the API. When logged in you can see other people's posts and make your own as well. You can also edit and delete your own posts. When you're done you can log out using the dropdown menu.<br />
