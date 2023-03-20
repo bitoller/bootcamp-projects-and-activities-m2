@@ -74,8 +74,7 @@
 }
 
 .img-div > img {
-  width: 50%;
-  height: 40%;
+  width: auto;
 }
 
 .container-right {
@@ -101,7 +100,7 @@
 
 .pokedex-bottom {
   height: 10.438rem;
-  margin-left: 5rem;
+  margin-left: 5.063rem;
   margin-right: 4.688rem;
   margin-top: 1.438rem;
 }
@@ -159,13 +158,17 @@
 #pokemon-list > li > button {
   width: 100%;
   height: 100%;
-  background-color: var(--color-gray-2);
+  background: none;
   cursor: pointer;
 }
 
 #pokemon-list > li > button > img {
   width: 100%;
   height: 100%;
+}
+
+.no-border-bottom {
+  border-bottom: none !important;
 }
 
 .pokemon-browse {
@@ -180,7 +183,7 @@
 #back-button,
 #next-button {
   background-color: var(--color-gray-4);
-  width: 1.063rem;
+  width: 1.059rem;
   height: 3.125rem;
   cursor: pointer;
   border-radius: 2px;
@@ -190,12 +193,3 @@
 #next-button > i {
   color: var(--color-gray-1);
 }
-
-/* arrumar tamanho da imagem dos pokemons no topo
-arrumar tamanho das imagens estaticas no topo
-arrumar tamanho da descricao dos pokemons no topo
-algumas descricoes tem lang diferentes 
-zubat chines, sylveon japones, rapidash espanhol
-tamanho do container dos botoes de browse mais alto que o resto
-lista de pokemon bottom mais pra esquerda do que deveria
-a mudanca entre clique de um pokemon pra outro as vezes demora bastante*/

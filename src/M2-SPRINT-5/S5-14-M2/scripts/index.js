@@ -46,8 +46,11 @@ async function showSelectedPokemon(name, image, id) {
   descriptionTitle.innerText = "Description";
 
   let descriptionContent = document.createElement("p");
-  descriptionContent.innerText =
-    pokemonWithFlavor.flavor_text_entries[0].flavor_text;
+  pokemonWithFlavor.flavor_text_entries.forEach((element) => {
+    if (element.language.name == "en") {
+      descriptionContent.innerText = element.flavor_text;
+    }
+  });
 
   heightAndWeightDiv.append(height, weight);
   imgDiv.append(pokemonImg);
@@ -101,16 +104,19 @@ async function renderAll(pageNumber = 0) {
   let pokemonList = document.querySelector("#pokemon-list");
   pokemonList.innerHTML = "";
 
-  pokemons.results.forEach((pokemon) => {
-    let pokemonId = pokemon.url.slice(34, -1);
+  for (let i = 0; i < pokemons.results.length; i++) {
+    let pokemonId = pokemons.results[i].url.slice(34, -1);
     let pokemonCard = createPokemon(
       `${defaultUrlImg}${pokemonId}.png`,
-      pokemon.name,
+      pokemons.results[i].name,
       pokemonId
     );
+    if (i >= 14) {
+      pokemonCard.classList.add("no-border-bottom");
+    }
 
     pokemonList.append(pokemonCard);
-  });
+  }
 }
 
 function browseButtons() {
