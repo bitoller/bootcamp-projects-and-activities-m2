@@ -1,4 +1,4 @@
-<h1>Projeto - Site Institucional Genérico</h1>
+<h1>Site Institucional Genérico</h1>
 
 <img src="./assets/example-1.jpg" alt="example 1" />
 
