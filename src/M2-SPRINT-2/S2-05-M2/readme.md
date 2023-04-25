@@ -1,4 +1,4 @@
-<h1>JavaScript | Atividade - Criando Filtro de Dados</h1>
+<h1>Atividade - Criando Filtro de Dados</h1>
 
 <h3>Sobre a atividade</h3>
 Nessa atividade praticaremos o método de array filter aprendido na última aula. Através dele, conseguiremos manipular um array e filtrar apenas os elementos que satisfaçam as nossas condições dentro da função, sem usar necessariamente um looping. Bora lá?
