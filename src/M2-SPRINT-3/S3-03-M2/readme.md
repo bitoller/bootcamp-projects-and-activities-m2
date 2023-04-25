@@ -1,4 +1,4 @@
-<h1>CSS | Atividade - Criando Menu Responsivo</h1>
+<h1>Atividade - Criando Menu Responsivo</h1>
 
 <h3>Qual o desafio que vamos desenvolver?</h3>
 Nesta atividade você deve utilizar os conceitos aprendidos nas aulas do tema de responsividade, fornecendo assim um componente responsivo, que no contexto que vamos aplicar, será um menu de opções, componente visual muito presente em aplicações webs.
