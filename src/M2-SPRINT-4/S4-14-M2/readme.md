@@ -1,4 +1,4 @@
-<h1>Projeto - Git Search</h1>
+<h1>Git Search</h1>
 
 <h3>Introdução</h3>
 <img src="./assets/example-1.png" alt="example 1" />
