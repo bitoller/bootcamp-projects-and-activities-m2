@@ -1,4 +1,4 @@
-<h1>CSS | Entrega - Rede Social</h1>
+<h1>Projeto - Rede Social</h1>
 
 <h3>Introdução</h3>
 Nesta atividade exercitaremos os conceitos de CSS vistos até aqui, além dos conceitos de javascript vistos na sprint anterior. Trabalharemos mais incisivamente na parte responsiva, além de criar um modal para nossa aplicação.
