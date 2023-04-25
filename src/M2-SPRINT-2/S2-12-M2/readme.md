@@ -1,4 +1,4 @@
-<h1>Projeto - Reproduzindo Métodos de Array</h1>
+<h1>Reproduzindo Métodos de Array</h1>
 
 <h3>O que devo fazer nessa Entrega?</h3>
 Sua tarefa é desenvolver uma aplicação em JavaScript que reproduza as funcionalidades dos métodos map(), filter(), find() e reduce(). A aplicação deve conseguir de processar arrays de dados, fornecer suporte a diferentes tipos de dados e retornar resultados específicos conforme as regras de filtragem e agregação definidas pela documentação do método.
