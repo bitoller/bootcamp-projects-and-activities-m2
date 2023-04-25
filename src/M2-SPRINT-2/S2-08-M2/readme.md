@@ -1,4 +1,4 @@
-<h1>JavaScript | Atividade - Reduzindo Dados</h1>
+<h1>Atividade - Reduzindo Dados</h1>
 
 <h3>Sobre a atividade</h3>
 Nessa atividade praticaremos o método de array reduce aprendido nas últimas aulas. Através dele, conseguiremos manipular um array e reduzir os elementos, resultando num único valor de retorno, sem usar necessariamente um looping. Normalmente, utilizamos esse método com números ou para somar valores.
