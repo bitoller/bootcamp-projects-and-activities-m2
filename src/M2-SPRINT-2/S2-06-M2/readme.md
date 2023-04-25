@@ -1,4 +1,4 @@
-<h1>JavaScript | Atividade - Pesquisando por dados</h1>
+<h1>Atividade - Pesquisando por dados</h1>
 
 <h3>Introdução</h3>
 Fala dev!
