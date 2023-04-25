@@ -1,4 +1,4 @@
-<h1>Atividade - Página de Login</h1>
+<h1>Página de Login</h1>
 
 <h3>Introdução</h3>
 Nessa atividade vamos exercitar muitos dos conceitos que vimos até aqui, desde organização de código até implementação de estilos e dinamização com o DOM, então antes de pôr a mão no código vamos começar pelo planejamento e organização do nosso projeto.
