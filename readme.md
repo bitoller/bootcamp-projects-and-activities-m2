@@ -127,7 +127,7 @@ For the module's final project I had to code an HR Management Application based 
 <hr />
 
 <p align="center">
-<b>Do not copy any code, content or structure from this repository without my permission.<br />
-Buttons made by @Luhmaria.</b><br />
+<b>Do not copy any code, content or structure from this repository without my permission<br />
+Buttons made by @Luhmaria</b><br />
 Made with ♥ by bitoller
 </p>
