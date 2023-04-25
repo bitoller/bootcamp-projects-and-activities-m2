@@ -17,7 +17,7 @@ For my first activity I had to code a Modal Box using HTML, CSS and JavaScript. 
 <br />
 `scaffolding` `dialog` `css variables` `flexbox` `function` `variables` `data type` `methods` `+`
 
-## S1-14-M2 - PROJECT NAME: [SITE INSTITUCIONAL](https://bitoller.github.io/bootcamp-projects-and-activities-m2/src/M2-SPRINT-1/S1-14-M2/index.html) - DATE: 01/27/23 - DETAILS: [CODE](https://github.com/bitoller/bootcamp-projects-and-activities-m2/tree/main/src/M2-SPRINT-1/S1-14-M2)
+## S1-14-M2 - PROJECT NAME: [SITE INSTITUCIONAL GENÉRICO](https://bitoller.github.io/bootcamp-projects-and-activities-m2/src/M2-SPRINT-1/S1-14-M2/index.html) - DATE: 01/27/23 - DETAILS: [CODE](https://github.com/bitoller/bootcamp-projects-and-activities-m2/tree/main/src/M2-SPRINT-1/S1-14-M2)
 For my next activity I had to code a Web Site based on an example given from Figma using HTML, CSS and JavaScript. Both buttons had to open the same modal box, and the modal box had to have a working close button. The HTML was already done but I made small changes to it.<br />
 <br />
 `scaffolding` `dialog` `css variables` `flexbox` `backdrop` `function` `variables` `data type` `methods` `+`
