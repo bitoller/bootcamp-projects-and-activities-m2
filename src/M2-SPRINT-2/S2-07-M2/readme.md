@@ -1,4 +1,4 @@
-<h1>JavaScript | Atividade - Removendo Dados</h1>
+<h1>Atividade - Removendo Dados</h1>
 
 <h3>Introdução</h3>
 Fala, dev!
